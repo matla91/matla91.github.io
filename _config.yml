@@ -1,77 +1,181 @@
-# ----- SITE SETTINGS -----
-locale:                  "en-US"
-title:                   "Matthis Lahargoue — ML Engineer"
-title_separator:         "|"
-name:                    "Matthis Lahargoue"
-description:             "Applied Machine Learning Engineer focused on real-world constraints, reproducibility, and data-driven rigor."
-url:                     "https://matla91.github.io"
-baseurl:                 ""
-repository:              "matla91/matla91.github.io"
+# Site Settings
+locale: "en-US"
+title: "Matthis Lahargoue"
+title_separator: "|"
+name: "Matthis Lahargoue"
+description: "Applied Machine Learning Engineer — Computer Vision, Large-Scale ML, Reproducibility"
+url: "https://matla91.github.io"
+baseurl: ""
+repository: "matla91/matla91.github.io"
 
-# ----- SITE AUTHOR -----
+# Site Author
 author:
-  name:        "Matthis Lahargoue"
-  avatar:      "profile.png"
-  bio:         "ML Engineer · Computer Vision · Large-Scale ML · Reproducibility. I build models that work under real constraints — not just on leaderboards."
-  location:    "Chicoutimi, QC, Canada"
+  name: "Matthis Lahargoue"
+  avatar: "profile.png"
+  bio: "Applied ML Engineer. I build models that work under real-world constraints — not just on leaderboards."
+  location: "Chicoutimi, QC, Canada"
   employer:
+  pubmed:
+  googlescholar:
+  email: "matthis.lahargoue@gmail.com"
+  researchgate:
   uri:
-  email:       "matthis.lahargoue@gmail.com"
-  github:      "matla91"
-  linkedin:    "matthis-lahargoue"
-  # Uncomment and fill in if relevant:
-  # googlescholar:
-  # orcid:
-  # kaggle:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  github: "matla91"
+  google_plus:
+  keybase:
+  instagram:
+  impactstory:
+  lastfm:
+  linkedin: "matthis-lahargoue"
+  orcid:
+  pinterest:
+  soundcloud:
+  stackoverflow:
+  steam:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  xing:
+  youtube:
+  wikipedia:
 
-# ----- READING -----
-words_per_minute:        200
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# ----- OUTPUTTING -----
-permalink:               /:categories/:title/
-timezone:                America/Toronto
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-# ----- NAVIGATION -----
-# Only show sections that matter for an ML engineer portfolio.
-# Teaching, Talks, and Publications are disabled unless you add content later.
-header_pages:
-  - _pages/about.md
-  - _pages/cv.md
-  - _pages/portfolio.md
-  # - _pages/publications.md    # Enable when you have publications
-  # - _pages/talks.md           # Enable when you have talks
-  # - _pages/teaching.md        # Not relevant for ML engineer positioning
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# ----- COLLECTIONS -----
+# Collections
 collections:
   portfolio:
-    output:    true
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
     permalink: /:collection/:path/
 
-# ----- DEFAULTS -----
+# Defaults
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
-      path:   "_pages"
-      type:   pages
+      path: ""
+      type: pages
     values:
       layout: single
       author_profile: true
   # _portfolio
   - scope:
-      path:   "_portfolio"
-      type:   portfolio
+      path: ""
+      type: portfolio
     values:
       layout: single
       author_profile: true
+      share: true
+      comments: true
 
-# ----- SASS / CSS -----
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style:    compressed
+  style: compressed
 
-# ----- PLUGINS -----
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/Toronto
+
+# Plugins
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# Mimic GitHub Pages
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
