@@ -7,23 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-I am an ML engineer in training, currently completing a dual degree in Computer Science (AI specialization) between [UQAC](https://www.uqac.ca/) in Canada and [ENSISA](https://www.ensisa.uha.fr/) in France. My work focuses on building machine learning systems that hold up under real-world constraints — limited data, noisy labels, class imbalance, and distribution shift.
+I am an applied Machine Learning engineer currently completing a dual degree — an Engineering Degree in Computer Science (ENSISA, France) and a Master's in Artificial Intelligence (UQAC, Canada). My work focuses on building ML systems that perform reliably under real-world constraints: limited data, noisy labels, class imbalance, and distribution shift. I care more about whether a model generalizes than whether it tops a leaderboard.
 
-## How I approach ML
+## How I approach ML problems
 
-I treat every project as an engineering problem, not a leaderboard exercise. That means starting with baselines, quantifying what the data can actually support, and designing evaluation protocols that reflect deployment conditions. When a model fails to beat a naive strategy, I consider that a valid and informative result — not a reason to add complexity.
+Every project I take on starts from the same principles: understand the data before touching a model, define honest baselines, enforce strict validation, and report limitations as clearly as results. I have found that many published results — including in peer-reviewed venues — fail to survive contact with proper temporal splits or naive baselines. This shapes how I work: I treat evaluation methodology as a first-class concern, not an afterthought.
 
-This philosophy comes from hands-on experience: reproducing a published CNN stock predictor and showing it collapses under proper temporal validation, building an industrial vision prototype under severe data scarcity, and running distributed pipelines on 1.6 million records where scalability matters as much as accuracy.
+## What I work on
 
-## Core domains
+My experience spans three applied domains:
 
-- **Computer Vision** — Industrial image classification under real-world acquisition noise, class imbalance, and small datasets (MAGYAR SA).
-- **Large-Scale ML** — Distributed sentiment analysis pipelines with PySpark, MinHash LSH, and Approximate kNN on HPC infrastructure (Calcul Québec).
-- **Reproducibility & Evaluation** — Leakage-free validation design, explicit baseline comparisons, and critical assessment of published claims.
-- **Tabular ML & EDA** — Data-driven modeling on medical/clinical datasets, with emphasis on calibration, error profiling, and knowing when to stop optimizing.
+**Computer Vision (industrial).** At MAGYAR SA, I built an end-to-end CNN-based image classification system for industrial tank categorization, working with a proprietary dataset of ~1,000 images under constraints that most academic benchmarks never encounter — class imbalance, visually similar categories, and inconsistent acquisition conditions. The system achieved 78% F1-score and was delivered as a working prototype.
+
+**Large-scale distributed ML.** For a graduate-level project at UQAC, I designed and implemented a sentiment analysis pipeline processing 1.6 million tweets using PySpark on a Calcul Québec HPC cluster. The work involved MinHash LSH for approximate nearest neighbors, four feature engineering strategies, and scalability analysis demonstrating near-linear computation growth — providing direct experience with the engineering challenges of ML at scale.
+
+**Reproducibility and rigorous evaluation.** I conducted an independent reproducibility study of a Stanford paper claiming 91% accuracy for CNN-based stock prediction. By enforcing strict temporal validation and comparing against explicit naive baselines, I demonstrated that the reported results cannot be reproduced without look-ahead bias. The repository has reached over 65,000 views — evidence that rigorous negative results have real value.
 
 ## What I am looking for
 
-I am available for a **6-month ML engineering internship starting July 2026**, in Canada, the US, Switzerland, or France. I am looking for teams that value rigorous evaluation, clean pipelines, and engineers who understand the data before they build the model.
+I am seeking a **6-month ML Engineer internship starting July 2026**, in Canada, the US, Switzerland, or France. I am looking for teams that value engineering discipline, honest evaluation, and building systems that work in production — not just in notebooks.
 
-Reach me at [matthis.lahargoue@gmail.com](mailto:matthis.lahargoue@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/matthis-lahargoue).
+Feel free to explore my [portfolio](/portfolio/) or reach out via [email](mailto:matthis.lahargoue@gmail.com) or [LinkedIn](https://linkedin.com/in/matthis-lahargoue).
