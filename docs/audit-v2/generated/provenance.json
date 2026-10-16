@@ -1,0 +1,33 @@
+{
+  "code_commit": "5bc44814371e9e13b637aca0167eb12833c4711c",
+  "baseline_commit": "366061dec18649dffb4fbe2b79ac2e923da98888",
+  "run_url": "https://github.com/matla91/matla91.github.io/actions/runs/38939374941",
+  "artifact_id": 12063355244,
+  "artifact_sha256": "2b4b8ff48af03959c331cbfecf7e2319a621d8369b8798f895df76b157b84c7c",
+  "artifact_expires": "2026-11-15",
+  "all_captures": 81,
+  "retained_captures": [
+    "before-hero-1440.jpg",
+    "after-hero-1440.jpg",
+    "before-hero-390.jpg",
+    "after-hero-390.jpg",
+    "before-organizations-1440.jpg",
+    "after-organizations-1440.jpg",
+    "before-organizations-390.jpg",
+    "after-organizations-390.jpg",
+    "before-organizations-320.jpg",
+    "after-organizations-320.jpg",
+    "before-industrial-computer-vision-1440.jpg",
+    "after-industrial-computer-vision-1440.jpg",
+    "before-cnn-reproducibility-figure-1440.jpg",
+    "after-cnn-reproducibility-figure-1440.jpg",
+    "after-native-zoom-200-home.jpg",
+    "after-native-zoom-200-magyar.jpg",
+    "after-education-390.jpg",
+    "after-experience-390.jpg",
+    "after-nlos-computational-imaging-figure-1440.jpg",
+    "after-distributed-sentiment-analysis-figure-390.jpg",
+    "after-basel-tram-air-figure-390.jpg",
+    "after-industrial-computer-vision-figure-1440.jpg"
+  ]
+}

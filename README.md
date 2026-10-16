@@ -1,6 +1,6 @@
 # Matthis Lahargoue — Research & Engineering Portfolio
 
-A monochrome portfolio for machine learning, computer vision and computational imaging. Built with React, TypeScript, Vite, Tailwind CSS and Motion. Inspired by the editorial structure and interactions of Martin Dallinger’s portfolio, with original implementation and Matthis’s existing GitHub identity.
+A monochrome portfolio for machine learning, computer vision and computational imaging. Built with React, TypeScript, Vite and Tailwind CSS, with native CSS transitions. Inspired by the editorial structure and interactions of Martin Dallinger’s portfolio, with original implementation and Matthis’s existing GitHub identity.
 
 ## Run and verify
 

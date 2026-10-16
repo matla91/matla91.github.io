@@ -1,5 +1,7 @@
 # Verification — 16 October 2026
 
+> Historical V1 record. For current browser checks, measurements and remaining limits, see [the V2 audit](audit-v2/README.md).
+
 ## Completed
 
 - TypeScript strict compilation with `tsc --noEmit`.
