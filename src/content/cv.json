@@ -1,0 +1,52 @@
+{
+  "name": "Matthis Lahargoue",
+  "role": "Machine Learning · Computer Vision · Scientific Computing",
+  "email": "matthis.lahargoue@gmail.com",
+  "github": "https://github.com/matla91",
+  "linkedin": "https://www.linkedin.com/in/matthis-lahargoue/",
+  "summary": "Engineering student on an ENSISA/UQAC double-degree pathway, currently a computational imaging research intern at ISL. Focused on machine learning, inverse problems, reproducible experimentation and scientific computing. Interested in ML and vision opportunities, especially in Switzerland.",
+  "experience": [
+    {
+      "title": "Research Intern - Computational Imaging / NLOS",
+      "org": "French-German Research Institute of Saint-Louis (ISL)",
+      "date": "July 2026 - present",
+      "text": "Research on learning-based non-line-of-sight reconstruction. Work connects transient-light simulation, data preparation, model training and quantitative evaluation. Tools: PyTorch, Mitsuba 3, Dr.Jit, CUDA, Linux and HPC. Public description only; institutional research details remain confidential."
+    },
+    {
+      "title": "Computer Vision / Applied ML Project",
+      "org": "MAGYAR SA",
+      "date": "June 2025",
+      "text": "Developed an offline CNN prototype for industrial tank image classification in a two-person team. Curated approximately 1,000 proprietary images. Addressed class imbalance, visual similarity and variable acquisition conditions with data preparation, transfer learning and class-level evaluation."
+    }
+  ],
+  "education": [
+    {
+      "title": "Engineering Degree - Computer Science & Network Engineering",
+      "org": "ENSISA, Université de Haute-Alsace, France",
+      "date": "In progress; diploma expected May 2027"
+    },
+    {
+      "title": "Master's in Computer Science - Artificial Intelligence",
+      "org": "Université du Québec à Chicoutimi (UQAC), Canada",
+      "date": "2025-2026 studies; degree pending"
+    }
+  ],
+  "projects": [
+    {
+      "title": "CNN Stock Prediction - Reproducibility Study",
+      "text": "Public reproduction study using chronological evaluation, train-only normalization and explicit naive baselines. The investigated CNNs did not improve on the reported always-BUY baseline. Findings are specific to the tested setup.",
+      "url": "https://github.com/matla91/cnn-stock-prediction-reproducibility-study"
+    },
+    {
+      "title": "Basel Tram Air - Hack am Rhein Warm-up",
+      "text": "Interactive exploration of historical PM2.5 measurements along Basel tram corridors. Hourly aggregation, 262 spatial cells and a public map with slider/timelapse. Historical observations, not live measurements.",
+      "url": "https://github.com/matla91/basel-tram-air"
+    },
+    {
+      "title": "Large-Scale Sentiment Analysis - UQAC",
+      "text": "Graduate project with PySpark, MinHash LSH and approximate k-nearest neighbors on Calcul Québec HPC infrastructure, studying representations and scaling on Sentiment140."
+    }
+  ],
+  "skills": "Python · PyTorch · Scikit-learn · Computer vision · Inverse problems · Mitsuba 3 · Dr.Jit · CUDA · NumPy · Pandas · PySpark · Git · Linux · HPC / Slurm",
+  "languages": "French: native · English: B2 (Linguaskill) · German: B1 (Goethe-Test PRO)"
+}

@@ -1,0 +1,51 @@
+name: Portfolio checks & Pages
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master, feat/monochrome-research-portfolio]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: portfolio-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - name: Upload reviewable static site
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-static-site
+          path: dist
+          include-hidden-files: true
+      - name: Package Pages
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    # The redesign branch and pull requests can never deploy the production site.
+    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+    needs: check-build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
