@@ -1,4 +1,5 @@
-import { readFile, rm } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
+import { rmSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 const pkg = JSON.parse(await readFile("package.json", "utf8"));
 if (pkg.name !== "matthis-research-portfolio")
@@ -12,7 +13,7 @@ function run(file, args = []) {
 }
 run("node_modules/typescript/bin/tsc", ["--noEmit"]);
 for (const path of ["dist", ".ssr"])
-  await rm(path, { recursive: true, force: true });
+  rmSync(path, { recursive: true, force: true });
 run("node_modules/vite/bin/vite.js", ["build", "--emptyOutDir"]);
 run("node_modules/vite/bin/vite.js", [
   "build",
