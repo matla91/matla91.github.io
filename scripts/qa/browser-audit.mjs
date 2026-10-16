@@ -46,7 +46,11 @@ async function ready(page) {
       [...document.images]
         .filter(
           (i) =>
-            i.loading !== "lazy" || i.getBoundingClientRect().top < innerHeight,
+            i.loading !== "lazy" ||
+            (i.getClientRects().length > 0 &&
+              getComputedStyle(i).visibility !== "hidden" &&
+              i.getBoundingClientRect().top < innerHeight &&
+              i.getBoundingClientRect().bottom > 0),
         )
         .map((i) => i.decode().catch(() => {})),
     );

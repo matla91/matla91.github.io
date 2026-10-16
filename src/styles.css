@@ -2880,6 +2880,9 @@ details[open] > .experience-body {
 }
 
 /* V2: a readable floor at every breakpoint, stable disclosures and explicit focus. */
+.main-nav {
+  margin-left: auto;
+}
 .section-dark .muted {
   color: #a1a1a1;
 }
@@ -3115,6 +3118,14 @@ details[open] > .experience-body {
   }
 }
 @media (max-width: 680px) {
+  .menu-toggle {
+    margin-left: auto;
+    width: 44px;
+    height: 44px;
+  }
+  .logo-tile img {
+    max-width: 100%;
+  }
   .hero h1 {
     font-size: clamp(56px, 15.5vw, 104px);
   }
