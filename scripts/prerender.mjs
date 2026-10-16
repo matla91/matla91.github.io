@@ -1,7 +1,9 @@
 import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { render, projects, profile } from "../.ssr/entry-server.js";
-const interFont = (await readdir("dist/assets")).find((file) => /^inter-latin-wght-normal.*\.woff2$/.test(file));
+const interFont = (await readdir("dist/assets")).find((file) =>
+  /^inter-latin-wght-normal.*\.woff2$/.test(file),
+);
 if (!interFont) throw new Error("Missing primary font");
 const template = await readFile("dist/index.html", "utf8");
 const origin = (process.env.SITE_URL || "https://matla91.github.io").replace(

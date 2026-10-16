@@ -37,13 +37,22 @@ export default function ScientificVisual() {
     const visibility = () => setVisible(!document.hidden);
     visibility();
     document.addEventListener("visibilitychange", visibility);
-    const observer = "IntersectionObserver" in window ? new IntersectionObserver(([entry]) => setActive(entry.isIntersecting)) : null;
+    const observer =
+      "IntersectionObserver" in window
+        ? new IntersectionObserver(([entry]) => setActive(entry.isIntersecting))
+        : null;
     if (figure.current) observer?.observe(figure.current);
-    return () => { observer?.disconnect(); document.removeEventListener("visibilitychange", visibility); };
+    return () => {
+      observer?.disconnect();
+      document.removeEventListener("visibilitychange", visibility);
+    };
   }, []);
   const id = useId().replace(/:/g, "");
   return (
-    <figure ref={figure} className={`science-figure ${paused || !active || !visible ? "visual-paused" : ""}`}>
+    <figure
+      ref={figure}
+      className={`science-figure ${paused || !active || !visible ? "visual-paused" : ""}`}
+    >
       <div className="figure-top">
         <span className="micro">SIGNAL → STRUCTURE</span>
         <span className="micro">CONCEPT / 001</span>
@@ -94,16 +103,16 @@ export default function ScientificVisual() {
           }
         >
           <g className="cloud-motion">
-          {cloud.map((p, i) => (
-            <circle
-              key={i}
-              cx={p.x.toFixed(2)}
-              cy={p.y.toFixed(2)}
-              r={p.r.toFixed(2)}
-              opacity={p.opacity.toFixed(2)}
-              fill="currentColor"
-            />
-          ))}
+            {cloud.map((p, i) => (
+              <circle
+                key={i}
+                cx={p.x.toFixed(2)}
+                cy={p.y.toFixed(2)}
+                r={p.r.toFixed(2)}
+                opacity={p.opacity.toFixed(2)}
+                fill="currentColor"
+              />
+            ))}
           </g>
         </g>
         <g

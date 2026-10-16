@@ -48,7 +48,7 @@ Les schémas existants reçoivent des légendes explicatives (pipeline, séparat
 - `npm run check` : 16 tests Vitest, compilation TypeScript, client + SSR Vite, pré-rendu de 7 pages et 9 redirections ; 165 liens, ressources et ancres internes vérifiés.
 - `npm run test:browser` : cinq largeurs (1440, 1280, 768, 390, 320), accueil et cinq pages de projets ; débordements, taille minimale des textes HTML, chargement et couleurs des logos, axe WCAG 2.2 AA, panneaux, clavier, navigation, CV et routes directes. Rapport complet dans `generated/browser.json`.
 - `npm run audit:performance` : Lighthouse sur build de production local, trois mesures mobiles et trois desktop pour chaque version. Conditions détaillées avec chaque résultat dans `generated/lighthouse.json`. Rapports HTML/JSON complets dans l’artefact Actions `portfolio-v2-audit`.
-- La CI enregistre ses captures et résultats sur la branche V2 uniquement, jamais sur `master`. Cette écriture ne modifie que les preuves d’audit. Aucun déploiement.
+- La CI fournit des captures et rapports en artefact. Les preuves retenues sont ajoutées à cette branche après examen ; le workflow possède uniquement un accès en lecture au dépôt. Aucun déploiement.
 
 ## Limites à distinguer d’une validation
 
