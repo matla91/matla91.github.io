@@ -1,11 +1,11 @@
 # Asset provenance
 
-Downloaded from the official pages on 16 October 2026. Brand marks identify actual professional or academic relationships, not endorsements. Geometry and original brand colors are retained; raster marks are compressed to WebP. Organization and education logos display in color within the otherwise monochrome portfolio. No custom brand logo is invented.
+Sources collected on 16 October 2026. Organization logos come from their official pages, except for the MAGYAR replacement supplied directly by the user. Brand marks identify actual professional or academic relationships, not endorsements. Geometry and original brand colors are retained; raster marks are compressed to WebP. Organization and education logos display in color within the otherwise monochrome portfolio. No custom brand logo is invented.
 
 | Local asset                               | Source                                                                                                                           |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | `public/logos/isl.webp`                   | https://www.isl.eu/wp-content/uploads/2024/08/logo_isl_simple.png — linked by the ISL homepage                                   |
-| `public/logos/magyar.webp`                | https://www.magyar.fr/images/logo-fr.jpg — linked by the MAGYAR homepage                                                         |
+| `public/logos/magyar.webp`                | User-supplied red MAGYAR logo (`image.png`, 16 October 2026); resized and compressed to WebP for the website                                                         |
 | `public/logos/ensisa.webp`                | https://www.ensisa.uha.fr/wp-content/uploads/2025/11/logo-ensisa-insa.png — linked by the ENSISA homepage                        |
 | `public/logos/uqac.svg`                   | https://www.uqac.ca/wp-content/themes/uqac/assets/images/uqac.svg — linked by the UQAC homepage                                  |
 | `public/assets/avatar.webp`               | https://avatars.githubusercontent.com/u/133364346?v=4&size=512 — Matthis’s public GitHub avatar                                  |
