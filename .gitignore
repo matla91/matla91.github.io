@@ -10,7 +10,6 @@ Gemfile.lock
 
 # Ignore files created by npm
 node_modules
-package-lock.json
 
 # Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
@@ -21,3 +20,11 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# React / Vite portfolio
+node_modules/
+dist/
+.sites-runtime/
+coverage/
+*.tsbuildinfo
+.ssr/
