@@ -1,6 +1,6 @@
 # Asset provenance
 
-Downloaded from the official pages on 16 October 2026. Brand marks identify actual professional or academic relationships, not endorsements. Geometry is retained; raster marks are compressed to WebP and shown through a reversible grayscale CSS filter. No custom brand logo is invented.
+Downloaded from the official pages on 16 October 2026. Brand marks identify actual professional or academic relationships, not endorsements. Geometry and original brand colors are retained; raster marks are compressed to WebP. Organization and education logos display in color within the otherwise monochrome portfolio. No custom brand logo is invented.
 
 | Local asset                               | Source                                                                                                                           |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
