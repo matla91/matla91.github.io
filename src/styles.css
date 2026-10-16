@@ -757,7 +757,6 @@ h3 {
   right: 0;
 }
 .logo-tile img {
-  filter: grayscale(1);
   object-fit: contain;
   width: 180px;
   height: 76px;
@@ -895,7 +894,6 @@ h3 {
   align-self: start;
   justify-self: end;
   object-fit: contain;
-  filter: grayscale(1);
   width: 145px;
   height: 65px;
   margin-top: 13px;
