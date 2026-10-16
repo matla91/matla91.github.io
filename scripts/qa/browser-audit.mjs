@@ -308,9 +308,12 @@ try {
               "#experience",
               ".project-feature:first-child",
             ]) {
-              await page.locator(selector).scrollIntoViewIfNeeded();
+              await page.locator(selector).evaluate((element) =>
+                element.scrollIntoView({ block: "start", behavior: "instant" }),
+              );
               await ready(page);
-              await page.locator(selector).screenshot({
+              // Capture the viewport with its sticky navigation and scroll padding.
+              await page.screenshot({
                 path: `${directory}/captures/${version}-${selector.replace(/[^a-z]/g, "")}-${width}.jpg`,
                 type: "jpeg",
                 quality: 85,

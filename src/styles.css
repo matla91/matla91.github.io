@@ -2946,6 +2946,11 @@ details[open] > .experience-body {
 .figure-top {
   position: static;
   margin: 0 30px 8px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.figure-top > span {
+  white-space: nowrap;
 }
 .figure-top .micro {
   letter-spacing: 0.5px;
