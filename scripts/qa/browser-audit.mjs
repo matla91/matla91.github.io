@@ -140,6 +140,10 @@ try {
             `${width} ${route}: horizontal overflow (${layout.scrollWidth}/${layout.clientWidth})`,
           );
           verify(
+            layout.overflow.length === 0,
+            `${width} ${route}: element clipped outside viewport`,
+          );
+          verify(
             layout.small.length === 0,
             `${width} ${route}: ${layout.small.length} text elements below 12px`,
           );
@@ -182,6 +186,15 @@ try {
             quality: 85,
           });
         }
+        if (route !== "/" && (width === 1440 || width === 390)) {
+          await page.locator(".case-figure").scrollIntoViewIfNeeded();
+          await ready(page);
+          await page.locator(".case-figure").screenshot({
+            path: `${directory}/captures/${version}-${route.split("/")[2]}-figure-${width}.jpg`,
+            type: "jpeg",
+            quality: 85,
+          });
+        }
         if (route === "/") {
           await page
             .getByRole("button", {
@@ -190,6 +203,30 @@ try {
             })
             .click();
           await ready(page);
+          if (version === "after") {
+            check.organizationAxe = await page.evaluate(async () => {
+              const r = await window.axe.run(
+                document.getElementById("organizations"),
+                {
+                  runOnly: {
+                    type: "tag",
+                    values: ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"],
+                  },
+                },
+              );
+              return r.violations.map((v) => ({
+                id: v.id,
+                nodes: v.nodes.map((n) => ({
+                  target: n.target,
+                  summary: n.failureSummary,
+                })),
+              }));
+            });
+            verify(
+              check.organizationAxe.length === 0,
+              `${width}: expanded organization accessibility`,
+            );
+          }
           const panelHeight = await page
             .locator("#organization-details")
             .evaluate((e) => e.getBoundingClientRect().height);
@@ -233,11 +270,18 @@ try {
                   src: i.currentSrc,
                   loaded: i.complete && i.naturalWidth > 0,
                   filter: getComputedStyle(i).filter,
+                  fitsTile:
+                    i.getBoundingClientRect().left >=
+                      i.closest("button").getBoundingClientRect().left &&
+                    i.getBoundingClientRect().right <=
+                      i.closest("button").getBoundingClientRect().right,
                 })),
               );
             verify(
               logos.length === 4 &&
-                logos.every((i) => i.loaded && i.filter === "none"),
+                logos.every(
+                  (i) => i.loaded && i.filter === "none" && i.fitsTile,
+                ),
               `${width}: logo load or original colors`,
             );
             check.logos = logos;
@@ -258,6 +302,21 @@ try {
               );
             }
           }
+          if (width === 1440 || width === 390 || width === 320) {
+            for (const selector of [
+              "#education",
+              "#experience",
+              ".project-feature:first-child",
+            ]) {
+              await page.locator(selector).scrollIntoViewIfNeeded();
+              await ready(page);
+              await page.locator(selector).screenshot({
+                path: `${directory}/captures/${version}-${selector.replace(/[^a-z]/g, "")}-${width}.jpg`,
+                type: "jpeg",
+                quality: 85,
+              });
+            }
+          }
         }
       }
     }
@@ -275,12 +334,17 @@ try {
     () =>
       Number(
         getComputedStyle(document.querySelector(".cloud-points")).opacity,
-      ) < 0.01,
+      ) < 0.01 &&
+      Number(
+        getComputedStyle(document.querySelector(".signal-traces")).opacity,
+      ) > 0.99,
   );
   verify(
-    (await page
-      .locator(".signal-traces")
-      .evaluate((e) => getComputedStyle(e).opacity)) === "1",
+    Number(
+      await page
+        .locator(".signal-traces")
+        .evaluate((e) => getComputedStyle(e).opacity),
+    ) > 0.99,
     "Signal traces not visible",
   );
   await page.getByRole("button", { name: "Pause visual animation" }).click();
@@ -369,12 +433,21 @@ try {
         layout.scrollWidth <= layout.clientWidth,
       `Native 200% zoom: ${route}`,
     );
-    if (route === "/" || route.includes("industrial-computer-vision"))
-      await zoomPage.screenshot({
-        path: `${directory}/captures/after-native-zoom-200-${route === "/" ? "home" : "magyar"}.jpg`,
-        type: "jpeg",
+    if (route === "/" || route.includes("industrial-computer-vision")) {
+      // Capture the full physical viewport: Playwright's CSS clip crops native zoom screenshots.
+      const session = await zoomContext.newCDPSession(zoomPage);
+      const capture = await session.send("Page.captureScreenshot", {
+        format: "jpeg",
         quality: 85,
+        fromSurface: true,
+        captureBeyondViewport: false,
       });
+      await writeFile(
+        `${directory}/captures/after-native-zoom-200-${route === "/" ? "home" : "magyar"}.jpg`,
+        Buffer.from(capture.data, "base64"),
+      );
+      await session.detach();
+    }
   }
   await zoomContext.close();
   zoomContext = null;

@@ -142,7 +142,8 @@ h3 {
   margin-bottom: 30px;
 }
 .section-label > span {
-  opacity: 0.65;
+  opacity: 1;
+  color: #666;
   letter-spacing: 0;
 }
 .section-heading {
@@ -2883,6 +2884,19 @@ details[open] > .experience-body {
 .main-nav {
   margin-left: auto;
 }
+.section-dark .section-label > span {
+  color: #a1a1a1;
+}
+.case-text .limitations > .micro {
+  color: #626262;
+}
+.logo-tile:hover,
+.logo-tile.selected {
+  background: #fff;
+}
+.logo-tile:hover {
+  box-shadow: inset 0 -1px #c7c7c7;
+}
 .section-dark .muted {
   color: #a1a1a1;
 }
@@ -3118,6 +3132,9 @@ details[open] > .experience-body {
   }
 }
 @media (max-width: 680px) {
+  .project-metric {
+    flex-wrap: wrap;
+  }
   .menu-toggle {
     margin-left: auto;
     width: 44px;

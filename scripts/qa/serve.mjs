@@ -1,3 +1,4 @@
+import { gzipSync } from "node:zlib";
 import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { resolve, extname, sep } from "node:path";
@@ -27,12 +28,18 @@ export async function serve(directory, port) {
       }
       if ((await stat(file)).isDirectory()) file = resolve(file, "index.html");
       const content = await readFile(file);
+      const compress =
+        /\b(text\/|application\/(javascript|xml))/.test(
+          mime[extname(file)] || "",
+        ) && req.headers["accept-encoding"]?.includes("gzip");
       res
         .writeHead(200, {
           "content-type": mime[extname(file)] || "application/octet-stream",
-          "cache-control": "no-store",
+          "cache-control": "max-age=600",
+          vary: "Accept-Encoding",
+          ...(compress ? { "content-encoding": "gzip" } : {}),
         })
-        .end(content);
+        .end(compress ? gzipSync(content) : content);
     } catch {
       res
         .writeHead(404, { "content-type": "text/html" })

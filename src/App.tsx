@@ -148,8 +148,7 @@ function Organizations() {
             behind the work<span className="period">.</span>
           </h2>
           <p>
-            Research, industry and a double-degree
-            <br />
+            Research, industry and a double-degree <br />
             pathway between France and Canada.
           </p>
         </div>

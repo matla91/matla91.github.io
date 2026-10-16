@@ -11,7 +11,7 @@ const report = {
   date: new Date().toISOString(),
   node: process.version,
   conditions:
-    "GitHub Actions ubuntu-24.04; Chromium from pinned Playwright; Lighthouse simulated throttling; local production build; fresh profile for each run; 3 runs per version and preset; no score threshold",
+    "GitHub Actions ubuntu-24.04; Chromium from pinned Playwright; Lighthouse simulated throttling; local production build with gzip for text (as observed on GitHub Pages); fresh profile for each run; 3 runs per version and preset; no score threshold",
   runs: [],
 };
 try {
