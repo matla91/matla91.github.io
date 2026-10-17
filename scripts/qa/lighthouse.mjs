@@ -1,13 +1,14 @@
-import { spawn } from "node:child_process";
+import { spawn, execFileSync } from "node:child_process";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { chromium } from "@playwright/test";
 import { serve } from "./serve.mjs";
-const directory = "docs/audit-v2/generated";
+const directory = process.env.QA_OUTPUT_DIR || "docs/audit-v2/generated";
 await mkdir(directory + "/lighthouse", { recursive: true });
 const servers = [await serve("dist", 4173)];
 if (process.env.QA_BASELINE_DIR)
   servers.push(await serve(process.env.QA_BASELINE_DIR, 4174));
 const report = {
+  codeCommit: execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim(),
   date: new Date().toISOString(),
   node: process.version,
   conditions:

@@ -4,9 +4,10 @@ import { mkdir, writeFile, mkdtemp, rm } from "node:fs/promises";
 import { resolve } from "node:path";
 import { tmpdir } from "node:os";
 import { createRequire } from "node:module";
+import { execFileSync } from "node:child_process";
 import { serve } from "./serve.mjs";
 const require = createRequire(import.meta.url);
-const directory = "docs/audit-v2/generated";
+const directory = process.env.QA_OUTPUT_DIR || "docs/audit-v2/generated";
 await mkdir(directory + "/captures", { recursive: true });
 const widths = [1440, 1280, 768, 390, 320];
 const routes = [
@@ -22,6 +23,7 @@ const servers = [await serve("dist", 4173)];
 if (baseline) servers.push(await serve(baseline, 4174));
 const browser = await chromium.launch({ args: ["--no-sandbox"] });
 const report = {
+  codeCommit: execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim(),
   date: new Date().toISOString(),
   browser: browser.version(),
   conditions: {

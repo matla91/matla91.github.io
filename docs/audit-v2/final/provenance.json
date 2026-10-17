@@ -1,0 +1,27 @@
+{
+  "code_commit": "09047a085689c5a8a97aa72be1c7049b7f9f3436",
+  "baseline_commit": "366061dec18649dffb4fbe2b79ac2e923da98888",
+  "run_url": "https://github.com/matla91/matla91.github.io/actions/runs/39013526979",
+  "artifact_id": 12094460639,
+  "artifact_sha256": "12661fb5e92b3cbe6fec82d9e9a50dca0852fb205d60409d0331fc4522264c11",
+  "artifact_expires": "2026-11-16",
+  "all_captures": 86,
+  "retained_captures": [
+    "before-hero-1440.jpg",
+    "after-hero-1440.jpg",
+    "before-hero-390.jpg",
+    "after-hero-390.jpg",
+    "before-organizations-1440.jpg",
+    "after-organizations-1440.jpg",
+    "before-organizations-390.jpg",
+    "after-organizations-390.jpg",
+    "after-organizations-320.jpg",
+    "before-short-menu-320.jpg",
+    "after-short-menu-320.jpg",
+    "before-short-menu-390.jpg",
+    "after-short-menu-390.jpg",
+    "after-keyboard-reveal.jpg",
+    "after-native-zoom-200-home.jpg",
+    "after-industrial-computer-vision-1440.jpg"
+  ]
+}
