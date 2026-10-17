@@ -194,7 +194,7 @@ function Organizations() {
                       <img
                         src={o.logo}
                         alt={o.name}
-                        loading="lazy"
+                        loading="eager"
                         width="200"
                         height="90"
                       />
