@@ -1,11 +1,5 @@
 import { useEffect, useState } from "react";
 import {
-  MotionConfig,
-  motion,
-  AnimatePresence,
-  useReducedMotion,
-} from "motion/react";
-import {
   ArrowDown,
   ArrowUpRight,
   ArrowLeft,
@@ -13,6 +7,7 @@ import {
   Minus,
   Download,
   ChevronRight,
+  X,
 } from "lucide-react";
 import Header from "./components/Header";
 import ScientificVisual from "./components/ScientificVisual";
@@ -51,7 +46,22 @@ function useReveals(path: string) {
         observer.observe(el);
       }
     });
-    return () => observer.disconnect();
+    // Keyboard focus may reach a block before its intersection callback runs.
+    // Reveal every containing block immediately and keep it visible afterward.
+    const revealFocused = (event: FocusEvent) => {
+      if (!(event.target instanceof Element)) return;
+      for (const element of elements) {
+        if (element.contains(event.target)) {
+          element.classList.add("is-revealed");
+          observer.unobserve(element);
+        }
+      }
+    };
+    document.addEventListener("focusin", revealFocused);
+    return () => {
+      observer.disconnect();
+      document.removeEventListener("focusin", revealFocused);
+    };
   }, [path]);
 }
 const Label = ({
@@ -128,21 +138,32 @@ function Contact() {
 }
 function Organizations() {
   const [selected, setSelected] = useState<string | null>(null);
-  const item = organizations.find((o) => o.id === selected);
-  const reduced = useReducedMotion();
+  const close = () => {
+    const button = document.getElementById(`organization-${selected}`);
+    setSelected(null);
+    button?.focus();
+  };
   return (
-    <section id="organizations" className="organizations section-light">
+    <section
+      id="organizations"
+      className="organizations section-light"
+      onKeyDown={(event) => {
+        if (event.key === "Escape" && selected) {
+          event.stopPropagation();
+          close();
+        }
+      }}
+    >
       <div className="container" data-reveal>
         <div className="org-heading">
           <Label number="02">PEOPLE & PLACES</Label>
           <h2>
-            Where I’ve
+            Organizations
             <br />
-            put ideas to work<span className="period">.</span>
+            behind the work<span className="period">.</span>
           </h2>
           <p>
-            Research, industry and a double-degree
-            <br />
+            Research, industry and a double-degree <br />
             pathway between France and Canada.
           </p>
         </div>
@@ -160,11 +181,12 @@ function Organizations() {
                   .map((o) => (
                     <button
                       key={o.id}
+                      id={`organization-${o.id}`}
                       type="button"
                       className={`logo-tile logo-${o.id} ${selected === o.id ? "selected" : ""}`}
                       aria-label={`${o.name} — ${o.kind}`}
                       aria-expanded={selected === o.id}
-                      aria-controls="organization-details"
+                      aria-controls={`organization-details-${o.id}`}
                       onClick={() =>
                         setSelected(selected === o.id ? null : o.id)
                       }
@@ -178,7 +200,7 @@ function Organizations() {
                       />
                       <span>
                         {o.kind}
-                        <ArrowUpRight size={13} />
+                        <Plus size={16} aria-hidden="true" />
                       </span>
                     </button>
                   ))}
@@ -191,35 +213,45 @@ function Organizations() {
           className="org-detail-wrap"
           aria-live="polite"
         >
-          <AnimatePresence mode="wait">
-            {item ? (
-              <motion.div
-                key={item.id}
-                initial={{ opacity: 0, y: reduced ? 0 : 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.18 }}
-                className="org-detail"
+          {/* All panels occupy the same grid cell, reserving the tallest panel's space. */}
+          {organizations.map((item) => (
+            <div
+              key={item.id}
+              id={`organization-details-${item.id}`}
+              className="org-detail"
+              role="region"
+              aria-labelledby={`organization-${item.id}`}
+              aria-hidden={selected !== item.id}
+              inert={selected !== item.id}
+            >
+              <div>
+                <strong>{item.name}</strong>
+                <span>
+                  {item.kind} · {item.period}
+                </span>
+              </div>
+              <p>{item.detail}</p>
+              <a href={item.target}>
+                View {item.group === "academic" ? "education" : "experience"}
+                <ArrowDown size={15} />
+              </a>
+              <button
+                className="icon-button org-close"
+                type="button"
+                aria-label="Close organization details"
+                onClick={close}
               >
-                <div>
-                  <strong>{item.name}</strong>
-                  <span>
-                    {item.kind} · {item.period}
-                  </span>
-                </div>
-                <p>{item.detail}</p>
-                <a href={item.target}>
-                  View {item.group === "academic" ? "education" : "experience"}{" "}
-                  <ArrowDown size={15} />
-                </a>
-              </motion.div>
-            ) : (
-              <p className="org-hint micro">
-                SELECT AN ORGANIZATION TO EXPLORE THE CONNECTION{" "}
-                <Plus size={12} />
-              </p>
-            )}
-          </AnimatePresence>
+                <X size={18} />
+              </button>
+            </div>
+          ))}
+          {!selected && (
+            <p className="org-hint micro">
+              Select a logo to explore my role, the collaboration and its
+              context.
+              <Plus size={16} aria-hidden="true" />
+            </p>
+          )}
         </div>
       </div>
     </section>
@@ -231,7 +263,7 @@ function Education() {
       <div className="container">
         <div className="section-heading" data-reveal>
           <div>
-            <Label number="03">EDUCATION</Label>
+            <Label number="04">EDUCATION</Label>
             <h2>
               Engineering foundations.
               <br />
@@ -267,7 +299,7 @@ function Education() {
               </div>
             </div>
             <img
-              src="/logos/ensisa.webp"
+              src={organizations.find((o) => o.id === "ensisa")!.logo}
               width="180"
               height="80"
               loading="lazy"
@@ -295,7 +327,7 @@ function Education() {
               </div>
             </div>
             <img
-              src="/logos/uqac.svg"
+              src={organizations.find((o) => o.id === "uqac")!.logo}
               width="180"
               height="80"
               loading="lazy"
@@ -313,7 +345,7 @@ function Experience() {
       <div className="container">
         <div className="section-heading" data-reveal>
           <div>
-            <Label number="04">RESEARCH & PROFESSIONAL EXPERIENCE</Label>
+            <Label number="03">RESEARCH & PROFESSIONAL EXPERIENCE</Label>
             <h2>
               From physical questions
               <br />
@@ -556,8 +588,8 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       <a
         href={`/projects/${project.slug}/`}
         className="project-art-link"
+        aria-label={`Read ${project.shortTitle} case study`}
         tabIndex={-1}
-        aria-hidden="true"
       >
         <div className="project-art">
           <ProjectVisual project={project} />
@@ -660,7 +692,7 @@ function Home() {
   return (
     <>
       <Header home />
-      <main id="main">
+      <main id="main" tabIndex={-1}>
         <section className="hero section-dark" aria-labelledby="hero-title">
           <div className="hero-grid" aria-hidden="true" />
           <div className="container hero-inner">
@@ -681,9 +713,13 @@ function Home() {
                 to meaningful models.
               </p>
               <p className="hero-description">
-                Machine learning, computational imaging
-                <br className="desktop-break" /> and the engineering between
-                them.
+                Engineering student & research intern at ISL.
+                <br />
+                Machine learning, vision and computational imaging.
+                <span className="hero-location">
+                  Saint-Louis · Basel region · Open to opportunities in
+                  Switzerland
+                </span>
               </p>
               <div className="hero-actions">
                 <a href="#projects" className="button button-light">
@@ -797,8 +833,8 @@ function Home() {
           </div>
         </section>
         <Organizations />
-        <Education />
         <Experience />
+        <Education />
         <Skills />
         <Highlights />
         <Projects />
@@ -813,7 +849,7 @@ function ProjectPage({ project }: { project: Project }) {
   return (
     <>
       <Header />
-      <main id="main" className="case-page">
+      <main id="main" tabIndex={-1} className="case-page">
         <section className="case-hero section-dark">
           <div className="container">
             <a href="/#projects" className="back-link">
@@ -843,6 +879,16 @@ function ProjectPage({ project }: { project: Project }) {
                 )}
               </div>
             </div>
+            <dl className="case-brief">
+              <div>
+                <dt className="micro">MY CONTRIBUTION</dt>
+                <dd>{project.contribution}</dd>
+              </div>
+              <div>
+                <dt className="micro">EVIDENCE & SCOPE</dt>
+                <dd>{project.evidence}</dd>
+              </div>
+            </dl>
           </div>
         </section>
         <section className="case-content section-light">
@@ -906,7 +952,7 @@ function NotFound() {
   return (
     <>
       <Header />
-      <main id="main" className="not-found section-dark">
+      <main id="main" tabIndex={-1} className="not-found section-dark">
         <div className="container">
           <p className="micro">404 / OUTSIDE THE FIELD OF VIEW</p>
           <h1>
@@ -942,7 +988,7 @@ export default function App({ path = "/" }: { path?: string }) {
   const clean = path.replace(/\/+$/, "") || "/";
   const project = projects.find((p) => clean === `/projects/${p.slug}`);
   return (
-    <MotionConfig reducedMotion="user">
+    <>
       <div id="top" className="app-shell">
         {clean === "/" ? (
           <Home />
@@ -952,6 +998,6 @@ export default function App({ path = "/" }: { path?: string }) {
           <NotFound />
         )}
       </div>
-    </MotionConfig>
+    </>
   );
 }

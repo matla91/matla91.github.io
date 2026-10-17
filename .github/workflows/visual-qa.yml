@@ -1,0 +1,65 @@
+name: Portfolio visual audit
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      [
+        "src/**",
+        "public/**",
+        "tests/**",
+        "scripts/**",
+        "package*.json",
+        "vite.config.ts",
+        ".github/workflows/visual-qa.yml",
+      ]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visual-qa-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  browser-audit:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      # A fresh CI directory prevents tracked evidence from older runs entering the artifact.
+      QA_OUTPUT_DIR: /tmp/portfolio-v2-audit
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run check
+      - name: Build the deployed baseline for comparison
+        env:
+          QA_BASELINE_SHA: 366061dec18649dffb4fbe2b79ac2e923da98888
+        run: |
+          git worktree add --detach /tmp/portfolio-before "$QA_BASELINE_SHA"
+          npm ci --prefix /tmp/portfolio-before
+          npm run build --prefix /tmp/portfolio-before
+      - name: Responsive, keyboard, motion and WCAG checks
+        timeout-minutes: 6
+        env:
+          QA_BASELINE_DIR: /tmp/portfolio-before/dist
+          QA_BASELINE_SHA: 366061dec18649dffb4fbe2b79ac2e923da98888
+        run: node scripts/qa/browser-audit.mjs
+      - name: Reproducible Lighthouse measurements
+        if: always() && !cancelled()
+        env:
+          QA_BASELINE_DIR: /tmp/portfolio-before/dist
+        run: node scripts/qa/lighthouse.mjs
+      - name: Upload captures and complete reports
+        if: always() && !cancelled()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-v2-audit
+          path: ${{ env.QA_OUTPUT_DIR }}
+          retention-days: 30

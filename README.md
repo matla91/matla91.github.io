@@ -1,6 +1,6 @@
 # Matthis Lahargoue — Research & Engineering Portfolio
 
-A monochrome portfolio for machine learning, computer vision and computational imaging. Built with React, TypeScript, Vite, Tailwind CSS and Motion. Inspired by the editorial structure and interactions of Martin Dallinger’s portfolio, with original implementation and Matthis’s existing GitHub identity.
+A monochrome portfolio for machine learning, computer vision and computational imaging. Built with React, TypeScript, Vite and Tailwind CSS, with native CSS transitions. Inspired by the editorial structure and interactions of Martin Dallinger’s portfolio, with original implementation and Matthis’s existing GitHub identity.
 
 ## Run and verify
 
@@ -38,3 +38,7 @@ The separate owner-private preview is a review copy. GitHub remains the authorit
 ## Editorial and scientific scope
 
 See [design audit](docs/design-audit.md), [asset provenance](docs/asset-sources.md) and [verification](docs/verification.md). ISL material is limited to the public broad research description and conceptual illustrations. No unpublished measurements, internal protocols, data or code are included. Project metrics sourced only from self-reported public accounts are identified as such on the detailed pages.
+
+## Audit V2
+
+Voir [l’audit visuel, les corrections et les limites de vérification](docs/audit-v2/README.md). Les captures et mesures reproductibles sont jointes à la PR V2 ; aucune publication de cette branche.

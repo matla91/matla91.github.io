@@ -1,5 +1,7 @@
 # Design and content audit — 16 October 2026
 
+> Historical V1 record. For current browser checks, measurements and remaining limits, see [the V2 audit](audit-v2/README.md).
+
 Reference: https://martin-dallinger.me/ (live desktop inspection, including the organization expander and navigation).
 Profile: https://github.com/matla91/matla91 (`main`).
 Existing site: https://github.com/matla91/matla91.github.io (`master`, base `5cc95ec58916965ac0d0b244016405feb652d1bb`).

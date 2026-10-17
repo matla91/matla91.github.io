@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "contentEncoding": "gzip",
+    "cacheControl": "max-age=600",
+    "contentType": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/assets/index-T8P9WVUq.js",
+    "status": 200,
+    "contentEncoding": "gzip",
+    "cacheControl": "max-age=600",
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/index-CHqEyf8F.css",
+    "status": 200,
+    "contentEncoding": "gzip",
+    "cacheControl": "max-age=600",
+    "contentType": "text/css; charset=utf-8"
+  }
+]

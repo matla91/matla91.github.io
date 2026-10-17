@@ -1,3 +1,8 @@
+import islLogo from "../assets/logos/isl.webp";
+import magyarLogo from "../assets/logos/magyar.webp";
+import ensisaLogo from "../assets/logos/ensisa.webp";
+import uqacLogo from "../assets/logos/uqac.svg";
+
 export const profile = {
   name: "Matthis Lahargoue",
   email: "matthis.lahargoue@gmail.com",
@@ -21,6 +26,8 @@ export type Project = {
   caption: string;
   metric: string;
   metricLabel: string;
+  contribution: string;
+  evidence: string;
   context: string;
   approach: string[];
   outcome: string;
@@ -46,6 +53,10 @@ export const projects: Project[] = [
       "Conceptual illustration from my GitHub profile. Not an ISL experiment or reconstruction result.",
     metric: "Light → geometry",
     metricLabel: "Computational imaging",
+    contribution:
+      "I build simulation, data preparation, training and evaluation pipelines as a research intern at ISL.",
+    evidence:
+      "Ongoing research. This overview shares the problem and engineering scope; no institutional results are published here.",
     context:
       "An object outside a camera’s direct field of view still leaves a trace in the light that scatters through a scene. Non-line-of-sight imaging studies how to recover hidden structure from these indirect measurements. I work on this topic as a research intern at the French-German Research Institute of Saint-Louis.",
     approach: [
@@ -72,9 +83,13 @@ export const projects: Project[] = [
       "From image collection to an offline CNN prototype for industrial tank classification.",
     tags: ["Computer vision", "CNN", "Data curation", "Evaluation"],
     caption:
-      "Original schematic of an industrial vision pipeline. No company images or data are shown.",
+      "Curate and label images → train a classifier → evaluate and deliver an offline prototype. Original schematic; no company images or data.",
     metric: "~1,000",
     metricLabel: "Images curated · public project account",
+    contribution:
+      "I contributed to the dataset-to-classifier pipeline in a two-person team, from image curation to an offline CNN prototype.",
+    evidence:
+      "~1,000 curated images; 78% macro F1 reported in my public project account. Proprietary data; not independently reproducible.",
     context:
       "Industrial tank categories can look almost identical in photographs. In a two-person project for MAGYAR SA, the challenge was to turn inconsistent, limited image data into a useful classification prototype.",
     approach: [
@@ -102,9 +117,13 @@ export const projects: Project[] = [
       "Revisiting CNN stock prediction with temporal splits, train-only normalization and explicit naive baselines.",
     tags: ["CNN", "Time series", "Temporal validation", "Reproducibility"],
     caption:
-      "Schematic of the evaluation design; not a price chart or financial recommendation.",
+      "Past training data → chronological boundary → future test data. Fit normalization on training data only. Schematic, not a measured result.",
     metric: "62.7%",
     metricLabel: "Reported always-BUY baseline",
+    contribution:
+      "I reimplemented and compared CNN variants, chronological splits and train-only normalization against a naive baseline.",
+    evidence:
+      "The public repository reports ~62.7% test accuracy for both the always-BUY baseline and the investigated CNNs.",
     context:
       "A Stanford student paper reported up to 91% stock-movement prediction accuracy. I revisited the approach using public JPM data, a 256-day input window and a T+30 forecasting horizon, with a focus on evaluation design.",
     approach: [
@@ -136,6 +155,10 @@ export const projects: Project[] = [
       "Project dashboard image reused from my GitHub README. Measurements are historical, not live.",
     metric: "262",
     metricLabel: "Fixed spatial cells",
+    contribution:
+      "I connected historical sensor measurements to tram segments and built an interactive hourly map and timelapse.",
+    evidence:
+      "Public demo and code. 262 spatial cells; measurements from December 2019 to March 2020, not current conditions.",
     context:
       "What can measurements collected from tram roofs tell us about how air quality varied during the day? Basel Tram Air turns a historical Basel-Stadt open dataset into an interactive view of the measured network.",
     approach: [
@@ -162,9 +185,14 @@ export const projects: Project[] = [
     summary:
       "Approximate nearest neighbors, MinHash LSH and PySpark on a Calcul Québec HPC cluster.",
     tags: ["PySpark", "MinHash LSH", "NLP", "HPC"],
-    caption: "Conceptual distributed dataflow, not a measured cluster trace.",
+    caption:
+      "Text representations → distributed partitions → MinHash LSH and approximate nearest neighbors. Conceptual dataflow, not a measured cluster trace.",
     metric: "1.6M",
     metricLabel: "Tweets in Sentiment140",
+    contribution:
+      "I compared text representations, nearest-neighbor settings and MinHash LSH experiments using PySpark on Calcul Québec.",
+    evidence:
+      "1.6M training tweets in the source dataset. Binary accuracy of 0.854 is self-reported; public run artifacts are unavailable.",
     context:
       "For UQAC’s Machine Learning for Big Data course, I studied distributed sentiment classification using approximate k-nearest neighbors and MinHash LSH with PySpark.",
     approach: [
@@ -185,7 +213,7 @@ export const organizations = [
   {
     id: "isl",
     name: "ISL",
-    logo: "/logos/isl.webp",
+    logo: islLogo,
     kind: "Research internship",
     period: "July 2026 — present",
     detail: "Computational imaging & NLOS research",
@@ -195,7 +223,7 @@ export const organizations = [
   {
     id: "magyar",
     name: "MAGYAR SA",
-    logo: "/logos/magyar.webp",
+    logo: magyarLogo,
     kind: "Applied ML project",
     period: "June 2025",
     detail: "Industrial image classification · two-person team",
@@ -205,7 +233,7 @@ export const organizations = [
   {
     id: "ensisa",
     name: "ENSISA",
-    logo: "/logos/ensisa.webp",
+    logo: ensisaLogo,
     kind: "Engineering degree",
     period: "In progress · diploma expected May 2027",
     detail: "Computer Science & Network Engineering · France",
@@ -215,7 +243,7 @@ export const organizations = [
   {
     id: "uqac",
     name: "UQAC",
-    logo: "/logos/uqac.svg",
+    logo: uqacLogo,
     kind: "Master’s double-degree pathway",
     period: "2025–2026 studies · degree pending",
     detail: "Computer Science · Artificial Intelligence · Canada",

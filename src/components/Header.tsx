@@ -52,6 +52,13 @@ export default function Header({ home = false }: { home?: boolean }) {
             id="main-nav"
             aria-label="Main navigation"
             className={open ? "main-nav is-open" : "main-nav"}
+            onBlur={(event) => {
+              if (
+                !event.currentTarget.contains(event.relatedTarget) &&
+                event.relatedTarget !== menu.current
+              )
+                setOpen(false);
+            }}
           >
             {items.map(([label, id]) => (
               <a

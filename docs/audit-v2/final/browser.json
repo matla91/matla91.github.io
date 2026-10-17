@@ -1,0 +1,7587 @@
+{
+  "date": "2026-10-17T07:25:34.792Z",
+  "browser": "156.0.8078.4",
+  "conditions": {
+    "widths": [
+      1440,
+      1280,
+      768,
+      390,
+      320
+    ],
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "reducedMotion": "reduce for deterministic captures; separate normal-motion test",
+    "network": "local HTTP, no throttling",
+    "baseline": "366061dec18649dffb4fbe2b79ac2e923da98888"
+  },
+  "checks": [
+    {
+      "version": "before",
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "+ MACHINE LEARNING · COMPUTER VISION · SCIENTIFIC COMPUTING",
+            "size": "9px"
+          },
+          {
+            "text": "Download CV",
+            "size": "11px"
+          },
+          {
+            "text": "SIGNAL → STRUCTURE",
+            "size": "8px"
+          },
+          {
+            "text": "CONCEPT / 001",
+            "size": "8px"
+          },
+          {
+            "text": "01 Signals",
+            "size": "10px"
+          },
+          {
+            "text": "01",
+            "size": "8px"
+          },
+          {
+            "text": "02 Structure",
+            "size": "10px"
+          },
+          {
+            "text": "02",
+            "size": "8px"
+          },
+          {
+            "text": "Recovering hidden geometry from indirect light.Procedural il",
+            "size": "10px"
+          },
+          {
+            "text": "Procedural illustration · not experimental data",
+            "size": "9px"
+          },
+          {
+            "text": "Research intern @ ISL",
+            "size": "11px"
+          },
+          {
+            "text": "ENSISA × UQAC · DOUBLE DEGREE",
+            "size": "8px"
+          },
+          {
+            "text": "GitHub",
+            "size": "11px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "11px"
+          },
+          {
+            "text": "SCROLL TO EXPLORE",
+            "size": "8px"
+          },
+          {
+            "text": "01 THE THREAD THROUGH MY WORK",
+            "size": "9px"
+          },
+          {
+            "text": "01",
+            "size": "9px"
+          },
+          {
+            "text": "01 / LEARN",
+            "size": "9px"
+          },
+          {
+            "text": "02 / RECONSTRUCT",
+            "size": "9px"
+          },
+          {
+            "text": "03 / VERIFY",
+            "size": "9px"
+          },
+          {
+            "text": "MY EXPERIMENTAL LOOP",
+            "size": "8px"
+          },
+          {
+            "text": "SIMULATE  TRAIN  EVALUATE  UNDERSTAND ↺",
+            "size": "8px"
+          },
+          {
+            "text": "PROFESSIONAL EXPERIENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Research internship",
+            "size": "9px"
+          },
+          {
+            "text": "Applied ML project",
+            "size": "9px"
+          },
+          {
+            "text": "ACADEMIC INSTITUTIONS",
+            "size": "8px"
+          },
+          {
+            "text": "Engineering degree",
+            "size": "9px"
+          },
+          {
+            "text": "Master’s double-degree pathway",
+            "size": "9px"
+          },
+          {
+            "text": "SELECT AN ORGANIZATION TO EXPLORE THE CONNECTION",
+            "size": "8px"
+          },
+          {
+            "text": "03 EDUCATION",
+            "size": "10px"
+          },
+          {
+            "text": "03",
+            "size": "10px"
+          },
+          {
+            "text": "IN PROGRESSDiploma expected May 2027",
+            "size": "10px"
+          },
+          {
+            "text": "Diploma expected May 2027",
+            "size": "10px"
+          },
+          {
+            "text": "ENSISA · UNIVERSITÉ DE HAUTE-ALSACE",
+            "size": "8px"
+          },
+          {
+            "text": "France",
+            "size": "10px"
+          },
+          {
+            "text": "Engineering pathway",
+            "size": "10px"
+          },
+          {
+            "text": "2025 — 2026Studies · degree pending",
+            "size": "10px"
+          },
+          {
+            "text": "Studies · degree pending",
+            "size": "10px"
+          },
+          {
+            "text": "UNIVERSITÉ DU QUÉBEC À CHICOUTIMI",
+            "size": "8px"
+          },
+          {
+            "text": "Canada",
+            "size": "10px"
+          },
+          {
+            "text": "Double-degree pathway",
+            "size": "10px"
+          },
+          {
+            "text": "04 RESEARCH & PROFESSIONAL EXPERIENCE",
+            "size": "10px"
+          },
+          {
+            "text": "04",
+            "size": "10px"
+          },
+          {
+            "text": "More on LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "JUL 2026 — PRESENT",
+            "size": "9px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "10px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "10px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "10px"
+          },
+          {
+            "text": "CUDA",
+            "size": "10px"
+          },
+          {
+            "text": "Research overview",
+            "size": "10px"
+          },
+          {
+            "text": "Public overview only. Institutional data, code and unpublish",
+            "size": "10px"
+          },
+          {
+            "text": "JUN 2025",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Transfer learning",
+            "size": "10px"
+          },
+          {
+            "text": "Data curation",
+            "size": "10px"
+          },
+          {
+            "text": "View case study",
+            "size": "10px"
+          },
+          {
+            "text": "05 TECHNICAL TOOLKIT",
+            "size": "10px"
+          },
+          {
+            "text": "05",
+            "size": "10px"
+          },
+          {
+            "text": "01",
+            "size": "9px"
+          },
+          {
+            "text": "From a useful baseline to a carefully evaluated model.",
+            "size": "11px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "10px"
+          },
+          {
+            "text": "Scikit-learn",
+            "size": "10px"
+          },
+          {
+            "text": "CNNs",
+            "size": "10px"
+          },
+          {
+            "text": "Training & evaluation",
+            "size": "10px"
+          },
+          {
+            "text": "02",
+            "size": "9px"
+          },
+          {
+            "text": "Recovering structure from images and physical signals.",
+            "size": "11px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "10px"
+          },
+          {
+            "text": "Inverse problems",
+            "size": "10px"
+          },
+          {
+            "text": "Transient simulation",
+            "size": "10px"
+          },
+          {
+            "text": "Image processing",
+            "size": "10px"
+          },
+          {
+            "text": "03",
+            "size": "9px"
+          },
+          {
+            "text": "Simulation and computation for experimental research.",
+            "size": "11px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "10px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "10px"
+          },
+          {
+            "text": "CUDA",
+            "size": "10px"
+          },
+          {
+            "text": "Numerical analysis",
+            "size": "10px"
+          },
+          {
+            "text": "04",
+            "size": "9px"
+          },
+          {
+            "text": "Reproducible experiments that work beyond a notebook.",
+            "size": "11px"
+          },
+          {
+            "text": "Python",
+            "size": "10px"
+          },
+          {
+            "text": "Git",
+            "size": "10px"
+          },
+          {
+            "text": "Linux",
+            "size": "10px"
+          },
+          {
+            "text": "HPC / Slurm",
+            "size": "10px"
+          },
+          {
+            "text": "05",
+            "size": "9px"
+          },
+          {
+            "text": "Turning raw observations into interpretable evidence.",
+            "size": "11px"
+          },
+          {
+            "text": "PySpark",
+            "size": "10px"
+          },
+          {
+            "text": "Pandas",
+            "size": "10px"
+          },
+          {
+            "text": "NumPy",
+            "size": "10px"
+          },
+          {
+            "text": "Data visualization",
+            "size": "10px"
+          },
+          {
+            "text": "06 SELECTED HIGHLIGHTS",
+            "size": "10px"
+          },
+          {
+            "text": "06",
+            "size": "10px"
+          },
+          {
+            "text": "01 / REPRODUCIBILITY",
+            "size": "8px"
+          },
+          {
+            "text": "Read the study",
+            "size": "11px"
+          },
+          {
+            "text": "02 / HACK AM RHEIN WARM-UP",
+            "size": "8px"
+          },
+          {
+            "text": "Explore the project",
+            "size": "11px"
+          },
+          {
+            "text": "Show all highlights",
+            "size": "10px"
+          },
+          {
+            "text": "07 SELECTED WORK / 2025 — 2026",
+            "size": "10px"
+          },
+          {
+            "text": "07",
+            "size": "10px"
+          },
+          {
+            "text": "01 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Research · ISL · 2026 — ongoing",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026 — ongoing",
+            "size": "10px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "9px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "9px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "9px"
+          },
+          {
+            "text": "CUDA",
+            "size": "9px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "02 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA · June 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· June 2025",
+            "size": "10px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "9px"
+          },
+          {
+            "text": "Data curation",
+            "size": "9px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "9px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "03 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Independent study · Evaluation · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "10px"
+          },
+          {
+            "text": "CNN",
+            "size": "9px"
+          },
+          {
+            "text": "Time series",
+            "size": "9px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "9px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "9px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "04 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "10px"
+          },
+          {
+            "text": "Python",
+            "size": "9px"
+          },
+          {
+            "text": "Open data",
+            "size": "9px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "9px"
+          },
+          {
+            "text": "Visualization",
+            "size": "9px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "05 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Graduate project · UQAC · 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· 2025",
+            "size": "10px"
+          },
+          {
+            "text": "PySpark",
+            "size": "9px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "9px"
+          },
+          {
+            "text": "NLP",
+            "size": "9px"
+          },
+          {
+            "text": "HPC",
+            "size": "9px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT ARCHIVE",
+            "size": "8px"
+          },
+          {
+            "text": "Open archive",
+            "size": "10px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1440,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Research · ISL / 2026 — ongoing",
+            "size": "9px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "10px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "10px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "10px"
+          },
+          {
+            "text": "CUDA",
+            "size": "10px"
+          },
+          {
+            "text": "About ISL",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual illustration from my GitHub profile. Not an ISL e",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 01",
+            "size": "9px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "About ISL",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1440,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA / June 2025",
+            "size": "9px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "10px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Data curation",
+            "size": "10px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "10px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Original schematic of an industrial vision pipeline. No comp",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 02",
+            "size": "9px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1440,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Independent study · Evaluation / 2026",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Time series",
+            "size": "10px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "10px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "10px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Schematic of the evaluation design; not a price chart or fin",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 03",
+            "size": "9px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1440,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data / 2026",
+            "size": "9px"
+          },
+          {
+            "text": "Python",
+            "size": "10px"
+          },
+          {
+            "text": "Open data",
+            "size": "10px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "10px"
+          },
+          {
+            "text": "Visualization",
+            "size": "10px"
+          },
+          {
+            "text": "Open live project",
+            "size": "11px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Project dashboard image reused from my GitHub README. Measur",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 04",
+            "size": "9px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1440,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Graduate project · UQAC / 2025",
+            "size": "9px"
+          },
+          {
+            "text": "PySpark",
+            "size": "10px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "10px"
+          },
+          {
+            "text": "NLP",
+            "size": "10px"
+          },
+          {
+            "text": "HPC",
+            "size": "10px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual distributed dataflow, not a measured cluster trac",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 05",
+            "size": "9px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1280,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "+ MACHINE LEARNING · COMPUTER VISION · SCIENTIFIC COMPUTING",
+            "size": "9px"
+          },
+          {
+            "text": "Download CV",
+            "size": "11px"
+          },
+          {
+            "text": "SIGNAL → STRUCTURE",
+            "size": "8px"
+          },
+          {
+            "text": "CONCEPT / 001",
+            "size": "8px"
+          },
+          {
+            "text": "01 Signals",
+            "size": "10px"
+          },
+          {
+            "text": "01",
+            "size": "8px"
+          },
+          {
+            "text": "02 Structure",
+            "size": "10px"
+          },
+          {
+            "text": "02",
+            "size": "8px"
+          },
+          {
+            "text": "Recovering hidden geometry from indirect light.Procedural il",
+            "size": "10px"
+          },
+          {
+            "text": "Procedural illustration · not experimental data",
+            "size": "9px"
+          },
+          {
+            "text": "Research intern @ ISL",
+            "size": "11px"
+          },
+          {
+            "text": "ENSISA × UQAC · DOUBLE DEGREE",
+            "size": "8px"
+          },
+          {
+            "text": "GitHub",
+            "size": "11px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "11px"
+          },
+          {
+            "text": "SCROLL TO EXPLORE",
+            "size": "8px"
+          },
+          {
+            "text": "01 THE THREAD THROUGH MY WORK",
+            "size": "9px"
+          },
+          {
+            "text": "01",
+            "size": "9px"
+          },
+          {
+            "text": "01 / LEARN",
+            "size": "9px"
+          },
+          {
+            "text": "02 / RECONSTRUCT",
+            "size": "9px"
+          },
+          {
+            "text": "03 / VERIFY",
+            "size": "9px"
+          },
+          {
+            "text": "MY EXPERIMENTAL LOOP",
+            "size": "8px"
+          },
+          {
+            "text": "SIMULATE  TRAIN  EVALUATE  UNDERSTAND ↺",
+            "size": "8px"
+          },
+          {
+            "text": "PROFESSIONAL EXPERIENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Research internship",
+            "size": "9px"
+          },
+          {
+            "text": "Applied ML project",
+            "size": "9px"
+          },
+          {
+            "text": "ACADEMIC INSTITUTIONS",
+            "size": "8px"
+          },
+          {
+            "text": "Engineering degree",
+            "size": "9px"
+          },
+          {
+            "text": "Master’s double-degree pathway",
+            "size": "9px"
+          },
+          {
+            "text": "SELECT AN ORGANIZATION TO EXPLORE THE CONNECTION",
+            "size": "8px"
+          },
+          {
+            "text": "03 EDUCATION",
+            "size": "10px"
+          },
+          {
+            "text": "03",
+            "size": "10px"
+          },
+          {
+            "text": "IN PROGRESSDiploma expected May 2027",
+            "size": "10px"
+          },
+          {
+            "text": "Diploma expected May 2027",
+            "size": "10px"
+          },
+          {
+            "text": "ENSISA · UNIVERSITÉ DE HAUTE-ALSACE",
+            "size": "8px"
+          },
+          {
+            "text": "France",
+            "size": "10px"
+          },
+          {
+            "text": "Engineering pathway",
+            "size": "10px"
+          },
+          {
+            "text": "2025 — 2026Studies · degree pending",
+            "size": "10px"
+          },
+          {
+            "text": "Studies · degree pending",
+            "size": "10px"
+          },
+          {
+            "text": "UNIVERSITÉ DU QUÉBEC À CHICOUTIMI",
+            "size": "8px"
+          },
+          {
+            "text": "Canada",
+            "size": "10px"
+          },
+          {
+            "text": "Double-degree pathway",
+            "size": "10px"
+          },
+          {
+            "text": "04 RESEARCH & PROFESSIONAL EXPERIENCE",
+            "size": "10px"
+          },
+          {
+            "text": "04",
+            "size": "10px"
+          },
+          {
+            "text": "More on LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "JUL 2026 — PRESENT",
+            "size": "9px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "10px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "10px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "10px"
+          },
+          {
+            "text": "CUDA",
+            "size": "10px"
+          },
+          {
+            "text": "Research overview",
+            "size": "10px"
+          },
+          {
+            "text": "Public overview only. Institutional data, code and unpublish",
+            "size": "10px"
+          },
+          {
+            "text": "JUN 2025",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Transfer learning",
+            "size": "10px"
+          },
+          {
+            "text": "Data curation",
+            "size": "10px"
+          },
+          {
+            "text": "View case study",
+            "size": "10px"
+          },
+          {
+            "text": "05 TECHNICAL TOOLKIT",
+            "size": "10px"
+          },
+          {
+            "text": "05",
+            "size": "10px"
+          },
+          {
+            "text": "01",
+            "size": "9px"
+          },
+          {
+            "text": "From a useful baseline to a carefully evaluated model.",
+            "size": "11px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "10px"
+          },
+          {
+            "text": "Scikit-learn",
+            "size": "10px"
+          },
+          {
+            "text": "CNNs",
+            "size": "10px"
+          },
+          {
+            "text": "Training & evaluation",
+            "size": "10px"
+          },
+          {
+            "text": "02",
+            "size": "9px"
+          },
+          {
+            "text": "Recovering structure from images and physical signals.",
+            "size": "11px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "10px"
+          },
+          {
+            "text": "Inverse problems",
+            "size": "10px"
+          },
+          {
+            "text": "Transient simulation",
+            "size": "10px"
+          },
+          {
+            "text": "Image processing",
+            "size": "10px"
+          },
+          {
+            "text": "03",
+            "size": "9px"
+          },
+          {
+            "text": "Simulation and computation for experimental research.",
+            "size": "11px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "10px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "10px"
+          },
+          {
+            "text": "CUDA",
+            "size": "10px"
+          },
+          {
+            "text": "Numerical analysis",
+            "size": "10px"
+          },
+          {
+            "text": "04",
+            "size": "9px"
+          },
+          {
+            "text": "Reproducible experiments that work beyond a notebook.",
+            "size": "11px"
+          },
+          {
+            "text": "Python",
+            "size": "10px"
+          },
+          {
+            "text": "Git",
+            "size": "10px"
+          },
+          {
+            "text": "Linux",
+            "size": "10px"
+          },
+          {
+            "text": "HPC / Slurm",
+            "size": "10px"
+          },
+          {
+            "text": "05",
+            "size": "9px"
+          },
+          {
+            "text": "Turning raw observations into interpretable evidence.",
+            "size": "11px"
+          },
+          {
+            "text": "PySpark",
+            "size": "10px"
+          },
+          {
+            "text": "Pandas",
+            "size": "10px"
+          },
+          {
+            "text": "NumPy",
+            "size": "10px"
+          },
+          {
+            "text": "Data visualization",
+            "size": "10px"
+          },
+          {
+            "text": "06 SELECTED HIGHLIGHTS",
+            "size": "10px"
+          },
+          {
+            "text": "06",
+            "size": "10px"
+          },
+          {
+            "text": "01 / REPRODUCIBILITY",
+            "size": "8px"
+          },
+          {
+            "text": "Read the study",
+            "size": "11px"
+          },
+          {
+            "text": "02 / HACK AM RHEIN WARM-UP",
+            "size": "8px"
+          },
+          {
+            "text": "Explore the project",
+            "size": "11px"
+          },
+          {
+            "text": "Show all highlights",
+            "size": "10px"
+          },
+          {
+            "text": "07 SELECTED WORK / 2025 — 2026",
+            "size": "10px"
+          },
+          {
+            "text": "07",
+            "size": "10px"
+          },
+          {
+            "text": "01 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Research · ISL · 2026 — ongoing",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026 — ongoing",
+            "size": "10px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "9px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "9px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "9px"
+          },
+          {
+            "text": "CUDA",
+            "size": "9px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "02 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA · June 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· June 2025",
+            "size": "10px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "9px"
+          },
+          {
+            "text": "Data curation",
+            "size": "9px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "9px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "03 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Independent study · Evaluation · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "10px"
+          },
+          {
+            "text": "CNN",
+            "size": "9px"
+          },
+          {
+            "text": "Time series",
+            "size": "9px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "9px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "9px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "04 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "10px"
+          },
+          {
+            "text": "Python",
+            "size": "9px"
+          },
+          {
+            "text": "Open data",
+            "size": "9px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "9px"
+          },
+          {
+            "text": "Visualization",
+            "size": "9px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "05 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Graduate project · UQAC · 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· 2025",
+            "size": "10px"
+          },
+          {
+            "text": "PySpark",
+            "size": "9px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "9px"
+          },
+          {
+            "text": "NLP",
+            "size": "9px"
+          },
+          {
+            "text": "HPC",
+            "size": "9px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT ARCHIVE",
+            "size": "8px"
+          },
+          {
+            "text": "Open archive",
+            "size": "10px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1280,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Research · ISL / 2026 — ongoing",
+            "size": "9px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "10px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "10px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "10px"
+          },
+          {
+            "text": "CUDA",
+            "size": "10px"
+          },
+          {
+            "text": "About ISL",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual illustration from my GitHub profile. Not an ISL e",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 01",
+            "size": "9px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "About ISL",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1280,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA / June 2025",
+            "size": "9px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "10px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Data curation",
+            "size": "10px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "10px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Original schematic of an industrial vision pipeline. No comp",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 02",
+            "size": "9px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1280,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Independent study · Evaluation / 2026",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Time series",
+            "size": "10px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "10px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "10px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Schematic of the evaluation design; not a price chart or fin",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 03",
+            "size": "9px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1280,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data / 2026",
+            "size": "9px"
+          },
+          {
+            "text": "Python",
+            "size": "10px"
+          },
+          {
+            "text": "Open data",
+            "size": "10px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "10px"
+          },
+          {
+            "text": "Visualization",
+            "size": "10px"
+          },
+          {
+            "text": "Open live project",
+            "size": "11px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Project dashboard image reused from my GitHub README. Measur",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 04",
+            "size": "9px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 1280,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "8px"
+          },
+          {
+            "text": "About",
+            "size": "11px"
+          },
+          {
+            "text": "Experience",
+            "size": "11px"
+          },
+          {
+            "text": "Projects",
+            "size": "11px"
+          },
+          {
+            "text": "Education",
+            "size": "11px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "11px"
+          },
+          {
+            "text": "CV",
+            "size": "11px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Graduate project · UQAC / 2025",
+            "size": "9px"
+          },
+          {
+            "text": "PySpark",
+            "size": "10px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "10px"
+          },
+          {
+            "text": "NLP",
+            "size": "10px"
+          },
+          {
+            "text": "HPC",
+            "size": "10px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual distributed dataflow, not a measured cluster trac",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 05",
+            "size": "9px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [
+          {
+            "text": "About",
+            "size": "10px"
+          },
+          {
+            "text": "Experience",
+            "size": "10px"
+          },
+          {
+            "text": "Projects",
+            "size": "10px"
+          },
+          {
+            "text": "Education",
+            "size": "10px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "10px"
+          },
+          {
+            "text": "+ MACHINE LEARNING · COMPUTER VISION · SCIENTIFIC COMPUTING",
+            "size": "8px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "SIGNAL → STRUCTURE",
+            "size": "6px"
+          },
+          {
+            "text": "CONCEPT / 001",
+            "size": "6px"
+          },
+          {
+            "text": "01 Signals",
+            "size": "9px"
+          },
+          {
+            "text": "01",
+            "size": "7px"
+          },
+          {
+            "text": "02 Structure",
+            "size": "9px"
+          },
+          {
+            "text": "02",
+            "size": "7px"
+          },
+          {
+            "text": "Recovering hidden geometry from indirect light.Procedural il",
+            "size": "8px"
+          },
+          {
+            "text": "Procedural illustration · not experimental data",
+            "size": "7px"
+          },
+          {
+            "text": "Research intern @ ISL",
+            "size": "11px"
+          },
+          {
+            "text": "ENSISA × UQAC · DOUBLE DEGREE",
+            "size": "8px"
+          },
+          {
+            "text": "GitHub",
+            "size": "11px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "11px"
+          },
+          {
+            "text": "01 THE THREAD THROUGH MY WORK",
+            "size": "9px"
+          },
+          {
+            "text": "01",
+            "size": "9px"
+          },
+          {
+            "text": "01 / LEARN",
+            "size": "8px"
+          },
+          {
+            "text": "Useful baselines. Careful experiments.Models that earn their",
+            "size": "11px"
+          },
+          {
+            "text": "02 / RECONSTRUCT",
+            "size": "8px"
+          },
+          {
+            "text": "From measured light to hidden structure.Physics and learning",
+            "size": "11px"
+          },
+          {
+            "text": "03 / VERIFY",
+            "size": "8px"
+          },
+          {
+            "text": "Transparent methods. Honest evaluation.Results others can in",
+            "size": "11px"
+          },
+          {
+            "text": "MY EXPERIMENTAL LOOP",
+            "size": "8px"
+          },
+          {
+            "text": "SIMULATE  TRAIN  EVALUATE  UNDERSTAND ↺",
+            "size": "8px"
+          },
+          {
+            "text": "02 PEOPLE & PLACES",
+            "size": "11px"
+          },
+          {
+            "text": "02",
+            "size": "11px"
+          },
+          {
+            "text": "Research, industry and a double-degreepathway between France",
+            "size": "11px"
+          },
+          {
+            "text": "PROFESSIONAL EXPERIENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Research internship",
+            "size": "8px"
+          },
+          {
+            "text": "Applied ML project",
+            "size": "8px"
+          },
+          {
+            "text": "ACADEMIC INSTITUTIONS",
+            "size": "8px"
+          },
+          {
+            "text": "Engineering degree",
+            "size": "8px"
+          },
+          {
+            "text": "Master’s double-degree pathway",
+            "size": "8px"
+          },
+          {
+            "text": "SELECT AN ORGANIZATION TO EXPLORE THE CONNECTION",
+            "size": "8px"
+          },
+          {
+            "text": "03 EDUCATION",
+            "size": "10px"
+          },
+          {
+            "text": "03",
+            "size": "10px"
+          },
+          {
+            "text": "IN PROGRESSDiploma expected May 2027",
+            "size": "10px"
+          },
+          {
+            "text": "Diploma expected May 2027",
+            "size": "10px"
+          },
+          {
+            "text": "ENSISA · UNIVERSITÉ DE HAUTE-ALSACE",
+            "size": "8px"
+          },
+          {
+            "text": "France",
+            "size": "10px"
+          },
+          {
+            "text": "Engineering pathway",
+            "size": "10px"
+          },
+          {
+            "text": "2025 — 2026Studies · degree pending",
+            "size": "10px"
+          },
+          {
+            "text": "Studies · degree pending",
+            "size": "10px"
+          },
+          {
+            "text": "UNIVERSITÉ DU QUÉBEC À CHICOUTIMI",
+            "size": "8px"
+          },
+          {
+            "text": "Canada",
+            "size": "10px"
+          },
+          {
+            "text": "Double-degree pathway",
+            "size": "10px"
+          },
+          {
+            "text": "04 RESEARCH & PROFESSIONAL EXPERIENCE",
+            "size": "10px"
+          },
+          {
+            "text": "04",
+            "size": "10px"
+          },
+          {
+            "text": "More on LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "JUL 2026 — PRESENT",
+            "size": "9px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "10px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "10px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "10px"
+          },
+          {
+            "text": "CUDA",
+            "size": "10px"
+          },
+          {
+            "text": "Research overview",
+            "size": "10px"
+          },
+          {
+            "text": "Public overview only. Institutional data, code and unpublish",
+            "size": "10px"
+          },
+          {
+            "text": "JUN 2025",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Transfer learning",
+            "size": "10px"
+          },
+          {
+            "text": "Data curation",
+            "size": "10px"
+          },
+          {
+            "text": "View case study",
+            "size": "10px"
+          },
+          {
+            "text": "05 TECHNICAL TOOLKIT",
+            "size": "10px"
+          },
+          {
+            "text": "05",
+            "size": "10px"
+          },
+          {
+            "text": "01",
+            "size": "9px"
+          },
+          {
+            "text": "From a useful baseline to a carefully evaluated model.",
+            "size": "11px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "9px"
+          },
+          {
+            "text": "Scikit-learn",
+            "size": "9px"
+          },
+          {
+            "text": "CNNs",
+            "size": "9px"
+          },
+          {
+            "text": "Training & evaluation",
+            "size": "9px"
+          },
+          {
+            "text": "02",
+            "size": "9px"
+          },
+          {
+            "text": "Recovering structure from images and physical signals.",
+            "size": "11px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "9px"
+          },
+          {
+            "text": "Inverse problems",
+            "size": "9px"
+          },
+          {
+            "text": "Transient simulation",
+            "size": "9px"
+          },
+          {
+            "text": "Image processing",
+            "size": "9px"
+          },
+          {
+            "text": "03",
+            "size": "9px"
+          },
+          {
+            "text": "Simulation and computation for experimental research.",
+            "size": "11px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "9px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "9px"
+          },
+          {
+            "text": "CUDA",
+            "size": "9px"
+          },
+          {
+            "text": "Numerical analysis",
+            "size": "9px"
+          },
+          {
+            "text": "04",
+            "size": "9px"
+          },
+          {
+            "text": "Reproducible experiments that work beyond a notebook.",
+            "size": "11px"
+          },
+          {
+            "text": "Python",
+            "size": "9px"
+          },
+          {
+            "text": "Git",
+            "size": "9px"
+          },
+          {
+            "text": "Linux",
+            "size": "9px"
+          },
+          {
+            "text": "HPC / Slurm",
+            "size": "9px"
+          },
+          {
+            "text": "05",
+            "size": "9px"
+          },
+          {
+            "text": "Turning raw observations into interpretable evidence.",
+            "size": "11px"
+          },
+          {
+            "text": "PySpark",
+            "size": "9px"
+          },
+          {
+            "text": "Pandas",
+            "size": "9px"
+          },
+          {
+            "text": "NumPy",
+            "size": "9px"
+          },
+          {
+            "text": "Data visualization",
+            "size": "9px"
+          },
+          {
+            "text": "06 SELECTED HIGHLIGHTS",
+            "size": "10px"
+          },
+          {
+            "text": "06",
+            "size": "10px"
+          },
+          {
+            "text": "01 / REPRODUCIBILITY",
+            "size": "8px"
+          },
+          {
+            "text": "Read the study",
+            "size": "11px"
+          },
+          {
+            "text": "02 / HACK AM RHEIN WARM-UP",
+            "size": "8px"
+          },
+          {
+            "text": "Explore the project",
+            "size": "11px"
+          },
+          {
+            "text": "Show all highlights",
+            "size": "10px"
+          },
+          {
+            "text": "07 SELECTED WORK / 2025 — 2026",
+            "size": "10px"
+          },
+          {
+            "text": "07",
+            "size": "10px"
+          },
+          {
+            "text": "01 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Research · ISL · 2026 — ongoing",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026 — ongoing",
+            "size": "10px"
+          },
+          {
+            "text": "Exploring how transient light and learned models can reveal ",
+            "size": "11px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "7px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "02 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA · June 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· June 2025",
+            "size": "10px"
+          },
+          {
+            "text": "From image collection to an offline CNN prototype for indust",
+            "size": "11px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "8px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Data curation",
+            "size": "8px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "8px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "7px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "03 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Independent study · Evaluation · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "10px"
+          },
+          {
+            "text": "Revisiting CNN stock prediction with temporal splits, train-",
+            "size": "11px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Time series",
+            "size": "8px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "8px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "8px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "7px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "04 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "10px"
+          },
+          {
+            "text": "An interactive exploration of historical PM2.5 patterns alon",
+            "size": "11px"
+          },
+          {
+            "text": "Python",
+            "size": "8px"
+          },
+          {
+            "text": "Open data",
+            "size": "8px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "8px"
+          },
+          {
+            "text": "Visualization",
+            "size": "8px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "7px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "05 / SELECTED WORK",
+            "size": "8px"
+          },
+          {
+            "text": "Graduate project · UQAC · 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· 2025",
+            "size": "10px"
+          },
+          {
+            "text": "Approximate nearest neighbors, MinHash LSH and PySpark on a ",
+            "size": "11px"
+          },
+          {
+            "text": "PySpark",
+            "size": "8px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "8px"
+          },
+          {
+            "text": "NLP",
+            "size": "8px"
+          },
+          {
+            "text": "HPC",
+            "size": "8px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "7px"
+          },
+          {
+            "text": "Read case study",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT ARCHIVE",
+            "size": "8px"
+          },
+          {
+            "text": "Open archive",
+            "size": "10px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 768,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [
+          {
+            "text": "About",
+            "size": "10px"
+          },
+          {
+            "text": "Experience",
+            "size": "10px"
+          },
+          {
+            "text": "Projects",
+            "size": "10px"
+          },
+          {
+            "text": "Education",
+            "size": "10px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "10px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Research · ISL / 2026 — ongoing",
+            "size": "9px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "10px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "10px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "10px"
+          },
+          {
+            "text": "CUDA",
+            "size": "10px"
+          },
+          {
+            "text": "About ISL",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual illustration from my GitHub profile. Not an ISL e",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 01",
+            "size": "9px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "About ISL",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 768,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [
+          {
+            "text": "About",
+            "size": "10px"
+          },
+          {
+            "text": "Experience",
+            "size": "10px"
+          },
+          {
+            "text": "Projects",
+            "size": "10px"
+          },
+          {
+            "text": "Education",
+            "size": "10px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "10px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA / June 2025",
+            "size": "9px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "10px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Data curation",
+            "size": "10px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "10px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Original schematic of an industrial vision pipeline. No comp",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 02",
+            "size": "9px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 768,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [
+          {
+            "text": "About",
+            "size": "10px"
+          },
+          {
+            "text": "Experience",
+            "size": "10px"
+          },
+          {
+            "text": "Projects",
+            "size": "10px"
+          },
+          {
+            "text": "Education",
+            "size": "10px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "10px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Independent study · Evaluation / 2026",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "10px"
+          },
+          {
+            "text": "Time series",
+            "size": "10px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "10px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "10px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Schematic of the evaluation design; not a price chart or fin",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 03",
+            "size": "9px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 768,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [
+          {
+            "text": "About",
+            "size": "10px"
+          },
+          {
+            "text": "Experience",
+            "size": "10px"
+          },
+          {
+            "text": "Projects",
+            "size": "10px"
+          },
+          {
+            "text": "Education",
+            "size": "10px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "10px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data / 2026",
+            "size": "9px"
+          },
+          {
+            "text": "Python",
+            "size": "10px"
+          },
+          {
+            "text": "Open data",
+            "size": "10px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "10px"
+          },
+          {
+            "text": "Visualization",
+            "size": "10px"
+          },
+          {
+            "text": "Open live project",
+            "size": "11px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Project dashboard image reused from my GitHub README. Measur",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 04",
+            "size": "9px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 768,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [
+          {
+            "text": "About",
+            "size": "10px"
+          },
+          {
+            "text": "Experience",
+            "size": "10px"
+          },
+          {
+            "text": "Projects",
+            "size": "10px"
+          },
+          {
+            "text": "Education",
+            "size": "10px"
+          },
+          {
+            "text": "Let’s talk",
+            "size": "10px"
+          },
+          {
+            "text": "All projects",
+            "size": "11px"
+          },
+          {
+            "text": "Graduate project · UQAC / 2025",
+            "size": "9px"
+          },
+          {
+            "text": "PySpark",
+            "size": "10px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "10px"
+          },
+          {
+            "text": "NLP",
+            "size": "10px"
+          },
+          {
+            "text": "HPC",
+            "size": "10px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual distributed dataflow, not a measured cluster trac",
+            "size": "10px"
+          },
+          {
+            "text": "PROJECT 05",
+            "size": "9px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "11px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "9px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "9px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "9px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "9px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "9px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "10px"
+          },
+          {
+            "text": "08",
+            "size": "10px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "9px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "8px"
+          },
+          {
+            "text": "Back to top",
+            "size": "10px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "6px"
+          },
+          {
+            "text": "+ MACHINE LEARNING · COMPUTER VISION · SCIENTIFIC COMPUTING",
+            "size": "7px"
+          },
+          {
+            "text": "Explore my work",
+            "size": "11px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "SIGNAL → STRUCTURE",
+            "size": "7px"
+          },
+          {
+            "text": "CONCEPT / 001",
+            "size": "7px"
+          },
+          {
+            "text": "01 Signals",
+            "size": "10px"
+          },
+          {
+            "text": "01",
+            "size": "8px"
+          },
+          {
+            "text": "02 Structure",
+            "size": "10px"
+          },
+          {
+            "text": "02",
+            "size": "8px"
+          },
+          {
+            "text": "Recovering hidden geometry from indirect light.Procedural il",
+            "size": "10px"
+          },
+          {
+            "text": "Procedural illustration · not experimental data",
+            "size": "8px"
+          },
+          {
+            "text": "Research intern @ ISL",
+            "size": "10px"
+          },
+          {
+            "text": "ENSISA × UQAC · DOUBLE DEGREE",
+            "size": "6px"
+          },
+          {
+            "text": "GitHub",
+            "size": "9px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "9px"
+          },
+          {
+            "text": "01 THE THREAD THROUGH MY WORK",
+            "size": "8px"
+          },
+          {
+            "text": "01",
+            "size": "8px"
+          },
+          {
+            "text": "01 / LEARN",
+            "size": "8px"
+          },
+          {
+            "text": "02 / RECONSTRUCT",
+            "size": "8px"
+          },
+          {
+            "text": "03 / VERIFY",
+            "size": "8px"
+          },
+          {
+            "text": "MY EXPERIMENTAL LOOP",
+            "size": "7px"
+          },
+          {
+            "text": "SIMULATE  TRAIN  EVALUATE  UNDERSTAND ↺",
+            "size": "7px"
+          },
+          {
+            "text": "PROFESSIONAL EXPERIENCE",
+            "size": "7px"
+          },
+          {
+            "text": "Research internship",
+            "size": "8px"
+          },
+          {
+            "text": "Applied ML project",
+            "size": "8px"
+          },
+          {
+            "text": "ACADEMIC INSTITUTIONS",
+            "size": "7px"
+          },
+          {
+            "text": "Engineering degree",
+            "size": "8px"
+          },
+          {
+            "text": "Master’s double-degree pathway",
+            "size": "8px"
+          },
+          {
+            "text": "SELECT AN ORGANIZATION TO EXPLORE THE CONNECTION",
+            "size": "6px"
+          },
+          {
+            "text": "03 EDUCATION",
+            "size": "8px"
+          },
+          {
+            "text": "03",
+            "size": "8px"
+          },
+          {
+            "text": "IN PROGRESSDiploma expected May 2027",
+            "size": "8px"
+          },
+          {
+            "text": "Diploma expected May 2027",
+            "size": "9px"
+          },
+          {
+            "text": "ENSISA · UNIVERSITÉ DE HAUTE-ALSACE",
+            "size": "7px"
+          },
+          {
+            "text": "France",
+            "size": "9px"
+          },
+          {
+            "text": "Engineering pathway",
+            "size": "9px"
+          },
+          {
+            "text": "2025 — 2026Studies · degree pending",
+            "size": "8px"
+          },
+          {
+            "text": "Studies · degree pending",
+            "size": "9px"
+          },
+          {
+            "text": "UNIVERSITÉ DU QUÉBEC À CHICOUTIMI",
+            "size": "7px"
+          },
+          {
+            "text": "Canada",
+            "size": "9px"
+          },
+          {
+            "text": "Double-degree pathway",
+            "size": "9px"
+          },
+          {
+            "text": "04 RESEARCH & PROFESSIONAL EXPERIENCE",
+            "size": "8px"
+          },
+          {
+            "text": "04",
+            "size": "8px"
+          },
+          {
+            "text": "More on LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "JUL 2026 — PRESENT",
+            "size": "8px"
+          },
+          {
+            "text": "ISL · Computational Imaging & NLOS",
+            "size": "11px"
+          },
+          {
+            "text": "Build experimental pipelines from simulation and data prepar",
+            "size": "11px"
+          },
+          {
+            "text": "Explore computational imaging and machine learning through r",
+            "size": "11px"
+          },
+          {
+            "text": "Study reconstruction beyond a camera’s direct line of sight.",
+            "size": "11px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "Research overview",
+            "size": "10px"
+          },
+          {
+            "text": "Public overview only. Institutional data, code and unpublish",
+            "size": "9px"
+          },
+          {
+            "text": "JUN 2025",
+            "size": "8px"
+          },
+          {
+            "text": "MAGYAR SA · Applied Machine Learning",
+            "size": "11px"
+          },
+          {
+            "text": "Collect, clean and label approximately 1,000 proprietary ima",
+            "size": "11px"
+          },
+          {
+            "text": "Handle class imbalance, variable capture conditions and visu",
+            "size": "11px"
+          },
+          {
+            "text": "Deliver an offline prototype and evaluate class-level precis",
+            "size": "11px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Transfer learning",
+            "size": "8px"
+          },
+          {
+            "text": "Data curation",
+            "size": "8px"
+          },
+          {
+            "text": "View case study",
+            "size": "10px"
+          },
+          {
+            "text": "05 TECHNICAL TOOLKIT",
+            "size": "8px"
+          },
+          {
+            "text": "05",
+            "size": "8px"
+          },
+          {
+            "text": "01",
+            "size": "8px"
+          },
+          {
+            "text": "From a useful baseline to a carefully evaluated model.",
+            "size": "10px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Scikit-learn",
+            "size": "8px"
+          },
+          {
+            "text": "CNNs",
+            "size": "8px"
+          },
+          {
+            "text": "Training & evaluation",
+            "size": "8px"
+          },
+          {
+            "text": "02",
+            "size": "8px"
+          },
+          {
+            "text": "Recovering structure from images and physical signals.",
+            "size": "10px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "8px"
+          },
+          {
+            "text": "Inverse problems",
+            "size": "8px"
+          },
+          {
+            "text": "Transient simulation",
+            "size": "8px"
+          },
+          {
+            "text": "Image processing",
+            "size": "8px"
+          },
+          {
+            "text": "03",
+            "size": "8px"
+          },
+          {
+            "text": "Simulation and computation for experimental research.",
+            "size": "10px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "Numerical analysis",
+            "size": "8px"
+          },
+          {
+            "text": "04",
+            "size": "8px"
+          },
+          {
+            "text": "Reproducible experiments that work beyond a notebook.",
+            "size": "10px"
+          },
+          {
+            "text": "Python",
+            "size": "8px"
+          },
+          {
+            "text": "Git",
+            "size": "8px"
+          },
+          {
+            "text": "Linux",
+            "size": "8px"
+          },
+          {
+            "text": "HPC / Slurm",
+            "size": "8px"
+          },
+          {
+            "text": "05",
+            "size": "8px"
+          },
+          {
+            "text": "Turning raw observations into interpretable evidence.",
+            "size": "10px"
+          },
+          {
+            "text": "PySpark",
+            "size": "8px"
+          },
+          {
+            "text": "Pandas",
+            "size": "8px"
+          },
+          {
+            "text": "NumPy",
+            "size": "8px"
+          },
+          {
+            "text": "Data visualization",
+            "size": "8px"
+          },
+          {
+            "text": "06 SELECTED HIGHLIGHTS",
+            "size": "8px"
+          },
+          {
+            "text": "06",
+            "size": "8px"
+          },
+          {
+            "text": "01 / REPRODUCIBILITY",
+            "size": "8px"
+          },
+          {
+            "text": "Read the study",
+            "size": "11px"
+          },
+          {
+            "text": "02 / HACK AM RHEIN WARM-UP",
+            "size": "8px"
+          },
+          {
+            "text": "Explore the project",
+            "size": "11px"
+          },
+          {
+            "text": "Show all highlights",
+            "size": "10px"
+          },
+          {
+            "text": "07 SELECTED WORK / 2025 — 2026",
+            "size": "8px"
+          },
+          {
+            "text": "07",
+            "size": "8px"
+          },
+          {
+            "text": "01 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Research · ISL · 2026 — ongoing",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026 — ongoing",
+            "size": "9px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "02 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA · June 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· June 2025",
+            "size": "9px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "8px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Data curation",
+            "size": "8px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "8px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "03 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Independent study · Evaluation · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Time series",
+            "size": "8px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "8px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "8px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "04 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "9px"
+          },
+          {
+            "text": "Python",
+            "size": "8px"
+          },
+          {
+            "text": "Open data",
+            "size": "8px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "8px"
+          },
+          {
+            "text": "Visualization",
+            "size": "8px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "05 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Graduate project · UQAC · 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· 2025",
+            "size": "9px"
+          },
+          {
+            "text": "PySpark",
+            "size": "8px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "8px"
+          },
+          {
+            "text": "NLP",
+            "size": "8px"
+          },
+          {
+            "text": "HPC",
+            "size": "8px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "PROJECT ARCHIVE",
+            "size": "7px"
+          },
+          {
+            "text": "Open archive",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 390,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "6px"
+          },
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Research · ISL / 2026 — ongoing",
+            "size": "8px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "About ISL",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual illustration from my GitHub profile. Not an ISL e",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 01",
+            "size": "9px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "About ISL",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 390,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "6px"
+          },
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA / June 2025",
+            "size": "8px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "8px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Data curation",
+            "size": "8px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "8px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Original schematic of an industrial vision pipeline. No comp",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 02",
+            "size": "9px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 390,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "6px"
+          },
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Independent study · Evaluation / 2026",
+            "size": "8px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Time series",
+            "size": "8px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "8px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "8px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Schematic of the evaluation design; not a price chart or fin",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 03",
+            "size": "9px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 390,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "6px"
+          },
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data / 2026",
+            "size": "8px"
+          },
+          {
+            "text": "Python",
+            "size": "8px"
+          },
+          {
+            "text": "Open data",
+            "size": "8px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "8px"
+          },
+          {
+            "text": "Visualization",
+            "size": "8px"
+          },
+          {
+            "text": "Open live project",
+            "size": "10px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Project dashboard image reused from my GitHub README. Measur",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 04",
+            "size": "9px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 390,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [
+          {
+            "text": "RESEARCH & ENGINEERING",
+            "size": "6px"
+          },
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Graduate project · UQAC / 2025",
+            "size": "8px"
+          },
+          {
+            "text": "PySpark",
+            "size": "8px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "8px"
+          },
+          {
+            "text": "NLP",
+            "size": "8px"
+          },
+          {
+            "text": "HPC",
+            "size": "8px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual distributed dataflow, not a measured cluster trac",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 05",
+            "size": "9px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 320,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [
+          {
+            "text": "+ MACHINE LEARNING · COMPUTER VISION · SCIENTIFIC COMPUTING",
+            "size": "7px"
+          },
+          {
+            "text": "Explore my work",
+            "size": "11px"
+          },
+          {
+            "text": "Download CV",
+            "size": "9px"
+          },
+          {
+            "text": "SIGNAL → STRUCTURE",
+            "size": "7px"
+          },
+          {
+            "text": "CONCEPT / 001",
+            "size": "7px"
+          },
+          {
+            "text": "01 Signals",
+            "size": "10px"
+          },
+          {
+            "text": "01",
+            "size": "8px"
+          },
+          {
+            "text": "02 Structure",
+            "size": "10px"
+          },
+          {
+            "text": "02",
+            "size": "8px"
+          },
+          {
+            "text": "Recovering hidden geometry from indirect light.Procedural il",
+            "size": "10px"
+          },
+          {
+            "text": "Procedural illustration · not experimental data",
+            "size": "8px"
+          },
+          {
+            "text": "Research intern @ ISL",
+            "size": "10px"
+          },
+          {
+            "text": "ENSISA × UQAC · DOUBLE DEGREE",
+            "size": "5.8px"
+          },
+          {
+            "text": "GitHub",
+            "size": "8px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "8px"
+          },
+          {
+            "text": "01 THE THREAD THROUGH MY WORK",
+            "size": "8px"
+          },
+          {
+            "text": "01",
+            "size": "8px"
+          },
+          {
+            "text": "01 / LEARN",
+            "size": "8px"
+          },
+          {
+            "text": "02 / RECONSTRUCT",
+            "size": "8px"
+          },
+          {
+            "text": "03 / VERIFY",
+            "size": "8px"
+          },
+          {
+            "text": "MY EXPERIMENTAL LOOP",
+            "size": "7px"
+          },
+          {
+            "text": "SIMULATE  TRAIN  EVALUATE  UNDERSTAND ↺",
+            "size": "7px"
+          },
+          {
+            "text": "PROFESSIONAL EXPERIENCE",
+            "size": "7px"
+          },
+          {
+            "text": "Research internship",
+            "size": "8px"
+          },
+          {
+            "text": "Applied ML project",
+            "size": "8px"
+          },
+          {
+            "text": "ACADEMIC INSTITUTIONS",
+            "size": "7px"
+          },
+          {
+            "text": "Engineering degree",
+            "size": "8px"
+          },
+          {
+            "text": "Master’s double-degree pathway",
+            "size": "8px"
+          },
+          {
+            "text": "SELECT AN ORGANIZATION TO EXPLORE THE CONNECTION",
+            "size": "5.5px"
+          },
+          {
+            "text": "03 EDUCATION",
+            "size": "8px"
+          },
+          {
+            "text": "03",
+            "size": "8px"
+          },
+          {
+            "text": "IN PROGRESSDiploma expected May 2027",
+            "size": "8px"
+          },
+          {
+            "text": "Diploma expected May 2027",
+            "size": "9px"
+          },
+          {
+            "text": "ENSISA · UNIVERSITÉ DE HAUTE-ALSACE",
+            "size": "7px"
+          },
+          {
+            "text": "France",
+            "size": "9px"
+          },
+          {
+            "text": "Engineering pathway",
+            "size": "9px"
+          },
+          {
+            "text": "2025 — 2026Studies · degree pending",
+            "size": "8px"
+          },
+          {
+            "text": "Studies · degree pending",
+            "size": "9px"
+          },
+          {
+            "text": "UNIVERSITÉ DU QUÉBEC À CHICOUTIMI",
+            "size": "7px"
+          },
+          {
+            "text": "Canada",
+            "size": "9px"
+          },
+          {
+            "text": "Double-degree pathway",
+            "size": "9px"
+          },
+          {
+            "text": "04 RESEARCH & PROFESSIONAL EXPERIENCE",
+            "size": "8px"
+          },
+          {
+            "text": "04",
+            "size": "8px"
+          },
+          {
+            "text": "More on LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "JUL 2026 — PRESENT",
+            "size": "8px"
+          },
+          {
+            "text": "ISL · Computational Imaging & NLOS",
+            "size": "11px"
+          },
+          {
+            "text": "Build experimental pipelines from simulation and data prepar",
+            "size": "11px"
+          },
+          {
+            "text": "Explore computational imaging and machine learning through r",
+            "size": "11px"
+          },
+          {
+            "text": "Study reconstruction beyond a camera’s direct line of sight.",
+            "size": "11px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "Research overview",
+            "size": "10px"
+          },
+          {
+            "text": "Public overview only. Institutional data, code and unpublish",
+            "size": "9px"
+          },
+          {
+            "text": "JUN 2025",
+            "size": "8px"
+          },
+          {
+            "text": "MAGYAR SA · Applied Machine Learning",
+            "size": "11px"
+          },
+          {
+            "text": "Collect, clean and label approximately 1,000 proprietary ima",
+            "size": "11px"
+          },
+          {
+            "text": "Handle class imbalance, variable capture conditions and visu",
+            "size": "11px"
+          },
+          {
+            "text": "Deliver an offline prototype and evaluate class-level precis",
+            "size": "11px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Transfer learning",
+            "size": "8px"
+          },
+          {
+            "text": "Data curation",
+            "size": "8px"
+          },
+          {
+            "text": "View case study",
+            "size": "10px"
+          },
+          {
+            "text": "05 TECHNICAL TOOLKIT",
+            "size": "8px"
+          },
+          {
+            "text": "05",
+            "size": "8px"
+          },
+          {
+            "text": "01",
+            "size": "8px"
+          },
+          {
+            "text": "From a useful baseline to a carefully evaluated model.",
+            "size": "10px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Scikit-learn",
+            "size": "8px"
+          },
+          {
+            "text": "CNNs",
+            "size": "8px"
+          },
+          {
+            "text": "Training & evaluation",
+            "size": "8px"
+          },
+          {
+            "text": "02",
+            "size": "8px"
+          },
+          {
+            "text": "Recovering structure from images and physical signals.",
+            "size": "10px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "8px"
+          },
+          {
+            "text": "Inverse problems",
+            "size": "8px"
+          },
+          {
+            "text": "Transient simulation",
+            "size": "8px"
+          },
+          {
+            "text": "Image processing",
+            "size": "8px"
+          },
+          {
+            "text": "03",
+            "size": "8px"
+          },
+          {
+            "text": "Simulation and computation for experimental research.",
+            "size": "10px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "Numerical analysis",
+            "size": "8px"
+          },
+          {
+            "text": "04",
+            "size": "8px"
+          },
+          {
+            "text": "Reproducible experiments that work beyond a notebook.",
+            "size": "10px"
+          },
+          {
+            "text": "Python",
+            "size": "8px"
+          },
+          {
+            "text": "Git",
+            "size": "8px"
+          },
+          {
+            "text": "Linux",
+            "size": "8px"
+          },
+          {
+            "text": "HPC / Slurm",
+            "size": "8px"
+          },
+          {
+            "text": "05",
+            "size": "8px"
+          },
+          {
+            "text": "Turning raw observations into interpretable evidence.",
+            "size": "10px"
+          },
+          {
+            "text": "PySpark",
+            "size": "8px"
+          },
+          {
+            "text": "Pandas",
+            "size": "8px"
+          },
+          {
+            "text": "NumPy",
+            "size": "8px"
+          },
+          {
+            "text": "Data visualization",
+            "size": "8px"
+          },
+          {
+            "text": "06 SELECTED HIGHLIGHTS",
+            "size": "8px"
+          },
+          {
+            "text": "06",
+            "size": "8px"
+          },
+          {
+            "text": "01 / REPRODUCIBILITY",
+            "size": "8px"
+          },
+          {
+            "text": "Read the study",
+            "size": "11px"
+          },
+          {
+            "text": "02 / HACK AM RHEIN WARM-UP",
+            "size": "8px"
+          },
+          {
+            "text": "Explore the project",
+            "size": "11px"
+          },
+          {
+            "text": "Show all highlights",
+            "size": "10px"
+          },
+          {
+            "text": "07 SELECTED WORK / 2025 — 2026",
+            "size": "8px"
+          },
+          {
+            "text": "07",
+            "size": "8px"
+          },
+          {
+            "text": "01 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Research · ISL · 2026 — ongoing",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026 — ongoing",
+            "size": "9px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "02 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA · June 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· June 2025",
+            "size": "9px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "8px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Data curation",
+            "size": "8px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "8px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "03 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Independent study · Evaluation · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "9px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Time series",
+            "size": "8px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "8px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "8px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "04 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data · 2026",
+            "size": "8px"
+          },
+          {
+            "text": "· 2026",
+            "size": "9px"
+          },
+          {
+            "text": "Python",
+            "size": "8px"
+          },
+          {
+            "text": "Open data",
+            "size": "8px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "8px"
+          },
+          {
+            "text": "Visualization",
+            "size": "8px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "05 / SELECTED WORK",
+            "size": "6px"
+          },
+          {
+            "text": "Graduate project · UQAC · 2025",
+            "size": "8px"
+          },
+          {
+            "text": "· 2025",
+            "size": "9px"
+          },
+          {
+            "text": "PySpark",
+            "size": "8px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "8px"
+          },
+          {
+            "text": "NLP",
+            "size": "8px"
+          },
+          {
+            "text": "HPC",
+            "size": "8px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "8px"
+          },
+          {
+            "text": "Read case study",
+            "size": "11px"
+          },
+          {
+            "text": "PROJECT ARCHIVE",
+            "size": "7px"
+          },
+          {
+            "text": "Open archive",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 320,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Research · ISL / 2026 — ongoing",
+            "size": "8px"
+          },
+          {
+            "text": "PyTorch",
+            "size": "8px"
+          },
+          {
+            "text": "Mitsuba 3",
+            "size": "8px"
+          },
+          {
+            "text": "Dr.Jit",
+            "size": "8px"
+          },
+          {
+            "text": "CUDA",
+            "size": "8px"
+          },
+          {
+            "text": "About ISL",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual illustration from my GitHub profile. Not an ISL e",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 01",
+            "size": "9px"
+          },
+          {
+            "text": "Computational imaging",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "About ISL",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 320,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Applied ML · MAGYAR SA / June 2025",
+            "size": "8px"
+          },
+          {
+            "text": "Computer vision",
+            "size": "8px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Data curation",
+            "size": "8px"
+          },
+          {
+            "text": "Evaluation",
+            "size": "8px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Original schematic of an industrial vision pipeline. No comp",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 02",
+            "size": "9px"
+          },
+          {
+            "text": "Images curated · public project account",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 320,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Independent study · Evaluation / 2026",
+            "size": "8px"
+          },
+          {
+            "text": "CNN",
+            "size": "8px"
+          },
+          {
+            "text": "Time series",
+            "size": "8px"
+          },
+          {
+            "text": "Temporal validation",
+            "size": "8px"
+          },
+          {
+            "text": "Reproducibility",
+            "size": "8px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Schematic of the evaluation design; not a price chart or fin",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 03",
+            "size": "9px"
+          },
+          {
+            "text": "Reported always-BUY baseline",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 320,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Hack am Rhein warm-up · Open data / 2026",
+            "size": "8px"
+          },
+          {
+            "text": "Python",
+            "size": "8px"
+          },
+          {
+            "text": "Open data",
+            "size": "8px"
+          },
+          {
+            "text": "Spatial analysis",
+            "size": "8px"
+          },
+          {
+            "text": "Visualization",
+            "size": "8px"
+          },
+          {
+            "text": "Open live project",
+            "size": "10px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "10px"
+          },
+          {
+            "text": "Project dashboard image reused from my GitHub README. Measur",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 04",
+            "size": "9px"
+          },
+          {
+            "text": "Fixed spatial cells",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Explore repository",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "before",
+      "width": 320,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [
+          {
+            "text": "All projects",
+            "size": "10px"
+          },
+          {
+            "text": "Graduate project · UQAC / 2025",
+            "size": "8px"
+          },
+          {
+            "text": "PySpark",
+            "size": "8px"
+          },
+          {
+            "text": "MinHash LSH",
+            "size": "8px"
+          },
+          {
+            "text": "NLP",
+            "size": "8px"
+          },
+          {
+            "text": "HPC",
+            "size": "8px"
+          },
+          {
+            "text": "Public project account",
+            "size": "10px"
+          },
+          {
+            "text": "Conceptual distributed dataflow, not a measured cluster trac",
+            "size": "9px"
+          },
+          {
+            "text": "PROJECT 05",
+            "size": "9px"
+          },
+          {
+            "text": "Tweets in Sentiment140",
+            "size": "10px"
+          },
+          {
+            "text": "01 / THE QUESTION",
+            "size": "8px"
+          },
+          {
+            "text": "02 / THE WORK",
+            "size": "8px"
+          },
+          {
+            "text": "03 / WHAT CAME OUT",
+            "size": "8px"
+          },
+          {
+            "text": "04 / READING THE EVIDENCE",
+            "size": "8px"
+          },
+          {
+            "text": "Public project account",
+            "size": "11px"
+          },
+          {
+            "text": "NEXT CASE STUDY",
+            "size": "8px"
+          },
+          {
+            "text": "08 START A CONVERSATION",
+            "size": "8px"
+          },
+          {
+            "text": "08",
+            "size": "8px"
+          },
+          {
+            "text": "I’m interested in ML, vision and scientific computing opport",
+            "size": "11px"
+          },
+          {
+            "text": "Email",
+            "size": "10px"
+          },
+          {
+            "text": "LinkedIn",
+            "size": "10px"
+          },
+          {
+            "text": "GitHub",
+            "size": "10px"
+          },
+          {
+            "text": "Download CV",
+            "size": "10px"
+          },
+          {
+            "text": "Matthis LahargoueML · Vision · Scientific Computing",
+            "size": "11px"
+          },
+          {
+            "text": "ML · Vision · Scientific Computing",
+            "size": "8px"
+          },
+          {
+            "text": "© 2026 · MADE WITH INTENTION",
+            "size": "6px"
+          },
+          {
+            "text": "Back to top",
+            "size": "8px"
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "version": "after",
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 35
+          }
+        ],
+        "passes": 26
+      },
+      "organizationAxe": [],
+      "logos": [
+        {
+          "src": "http://127.0.0.1:4173/assets/isl-RuDtJSdv.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/magyar-CX0kZgSs.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/ensisa-Bt3aeKMb.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/uqac-b8gAkhsm.svg",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        }
+      ]
+    },
+    {
+      "version": "after",
+      "width": 1440,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 22
+      }
+    },
+    {
+      "version": "after",
+      "width": 1440,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 1440,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 8
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 1440,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 22
+      }
+    },
+    {
+      "version": "after",
+      "width": 1440,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 9
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 1280,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 35
+          }
+        ],
+        "passes": 26
+      },
+      "organizationAxe": [],
+      "logos": [
+        {
+          "src": "http://127.0.0.1:4173/assets/isl-RuDtJSdv.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/magyar-CX0kZgSs.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/ensisa-Bt3aeKMb.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/uqac-b8gAkhsm.svg",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        }
+      ]
+    },
+    {
+      "version": "after",
+      "width": 1280,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 22
+      }
+    },
+    {
+      "version": "after",
+      "width": 1280,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 1280,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 8
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 1280,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 22
+      }
+    },
+    {
+      "version": "after",
+      "width": 1280,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 9
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 39
+          }
+        ],
+        "passes": 26
+      },
+      "organizationAxe": [],
+      "logos": [
+        {
+          "src": "http://127.0.0.1:4173/assets/isl-RuDtJSdv.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/magyar-CX0kZgSs.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/ensisa-Bt3aeKMb.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/uqac-b8gAkhsm.svg",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        }
+      ]
+    },
+    {
+      "version": "after",
+      "width": 768,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 22
+      }
+    },
+    {
+      "version": "after",
+      "width": 768,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 768,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 8
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 768,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 22
+      }
+    },
+    {
+      "version": "after",
+      "width": 768,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 9
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "version": "after",
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 41
+          }
+        ],
+        "passes": 26
+      },
+      "organizationAxe": [],
+      "logos": [
+        {
+          "src": "http://127.0.0.1:4173/assets/isl-RuDtJSdv.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/magyar-CX0kZgSs.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/ensisa-Bt3aeKMb.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/uqac-b8gAkhsm.svg",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        }
+      ]
+    },
+    {
+      "version": "after",
+      "width": 390,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 23
+      }
+    },
+    {
+      "version": "after",
+      "width": 390,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          }
+        ],
+        "passes": 26
+      }
+    },
+    {
+      "version": "after",
+      "width": 390,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 8
+          }
+        ],
+        "passes": 26
+      }
+    },
+    {
+      "version": "after",
+      "width": 390,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 23
+      }
+    },
+    {
+      "version": "after",
+      "width": 390,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 9
+          }
+        ],
+        "passes": 26
+      }
+    },
+    {
+      "version": "after",
+      "width": 320,
+      "route": "/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 42
+          }
+        ],
+        "passes": 26
+      },
+      "organizationAxe": [],
+      "logos": [
+        {
+          "src": "http://127.0.0.1:4173/assets/isl-RuDtJSdv.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/magyar-CX0kZgSs.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/ensisa-Bt3aeKMb.webp",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/assets/uqac-b8gAkhsm.svg",
+          "loaded": true,
+          "filter": "none",
+          "fitsTile": true
+        }
+      ]
+    },
+    {
+      "version": "after",
+      "width": 320,
+      "route": "/projects/nlos-computational-imaging/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 23
+      }
+    },
+    {
+      "version": "after",
+      "width": 320,
+      "route": "/projects/industrial-computer-vision/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          }
+        ],
+        "passes": 26
+      }
+    },
+    {
+      "version": "after",
+      "width": 320,
+      "route": "/projects/cnn-reproducibility/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 8
+          }
+        ],
+        "passes": 26
+      }
+    },
+    {
+      "version": "after",
+      "width": 320,
+      "route": "/projects/basel-tram-air/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 23
+      }
+    },
+    {
+      "version": "after",
+      "width": 320,
+      "route": "/projects/distributed-sentiment-analysis/",
+      "status": 200,
+      "layout": {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "small": [],
+        "overflow": []
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 9
+          }
+        ],
+        "passes": 26
+      }
+    }
+  ],
+  "interactionChecks": [
+    {
+      "name": "focus-before-reveal",
+      "wasWaiting": true,
+      "revealed": true,
+      "opacity": "1",
+      "transition": "0s",
+      "staysRevealed": true
+    },
+    {
+      "name": "short-menu",
+      "version": "before",
+      "viewport": {
+        "width": 390,
+        "height": 360
+      },
+      "bottom": 428,
+      "height": 360,
+      "scrollable": false,
+      "cvVisible": true
+    },
+    {
+      "name": "short-menu",
+      "version": "before",
+      "viewport": {
+        "width": 320,
+        "height": 320
+      },
+      "bottom": 428,
+      "height": 320,
+      "scrollable": false,
+      "cvVisible": true
+    },
+    {
+      "name": "short-menu",
+      "version": "after",
+      "viewport": {
+        "width": 390,
+        "height": 360
+      },
+      "bottom": 359,
+      "height": 360,
+      "scrollable": true,
+      "cvVisible": true
+    },
+    {
+      "name": "short-menu",
+      "version": "after",
+      "viewport": {
+        "width": 320,
+        "height": 320
+      },
+      "bottom": 319,
+      "height": 320,
+      "scrollable": true,
+      "cvVisible": true
+    }
+  ],
+  "errors": [],
+  "reflow200": {
+    "method": "720 × 450 CSS viewport, equivalent to 1440 × 900 at 200%; not native browser zoom",
+    "overflow": false
+  },
+  "nativeZoom200": {
+    "method": "Chromium native tabs.setZoom(2), 1440 × 900 window, isolated CI-only profile",
+    "factor": 2,
+    "originalWidth": 1440,
+    "pages": [
+      {
+        "route": "/",
+        "width": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "devicePixelRatio": 2
+      },
+      {
+        "route": "/projects/nlos-computational-imaging/",
+        "width": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "devicePixelRatio": 2
+      },
+      {
+        "route": "/projects/industrial-computer-vision/",
+        "width": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "devicePixelRatio": 2
+      },
+      {
+        "route": "/projects/cnn-reproducibility/",
+        "width": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "devicePixelRatio": 2
+      },
+      {
+        "route": "/projects/basel-tram-air/",
+        "width": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "devicePixelRatio": 2
+      },
+      {
+        "route": "/projects/distributed-sentiment-analysis/",
+        "width": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "devicePixelRatio": 2
+      }
+    ]
+  }
+}

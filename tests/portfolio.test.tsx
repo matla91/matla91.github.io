@@ -1,5 +1,5 @@
-import { describe, it, expect } from "vitest";
-import { render, screen, fireEvent, within } from "@testing-library/react";
+import { describe, it, expect, vi } from "vitest";
+import { act, render, screen, fireEvent, within } from "@testing-library/react";
 import { renderToString } from "react-dom/server";
 import App from "../src/App";
 import ScientificVisual from "../src/components/ScientificVisual";
@@ -46,6 +46,49 @@ describe("recruiter journey and accessible interactions", () => {
     expect(toggle.getAttribute("aria-expanded")).toBe("false");
     expect(document.activeElement).toBe(toggle);
   });
+  it("dismisses navigation when keyboard focus leaves it without stealing focus", () => {
+    render(<App />);
+    const toggle = screen.getByRole("button", { name: "Open navigation" });
+    fireEvent.click(toggle);
+    const nav = screen.getByRole("navigation");
+    act(() => within(nav).getByRole("link", { name: "About" }).focus());
+    // Tabbing between menu items keeps the menu open.
+    act(() => within(nav).getByRole("link", { name: "CV" }).focus());
+    expect(toggle.getAttribute("aria-expanded")).toBe("true");
+    const work = screen.getByRole("link", { name: "Explore my work" });
+    act(() => work.focus());
+    expect(toggle.getAttribute("aria-expanded")).toBe("false");
+    expect(document.activeElement).toBe(work);
+  });
+  it("reveals an off-screen block immediately when reached with the keyboard", () => {
+    const observe = vi.fn();
+    const unobserve = vi.fn();
+    const disconnect = vi.fn();
+    vi.stubGlobal("IntersectionObserver", class {
+      observe = observe;
+      unobserve = unobserve;
+      disconnect = disconnect;
+    });
+    const rect = vi.spyOn(Element.prototype, "getBoundingClientRect")
+      .mockReturnValue({ top: 1200 } as DOMRect);
+    try {
+      const { unmount } = render(<App />);
+      const org = document.querySelector("#organizations [data-reveal]")!;
+      expect(org.classList.contains("will-reveal")).toBe(true);
+      expect(org.classList.contains("is-revealed")).toBe(false);
+      const logo = screen.getByRole("button", { name: "ISL — Research internship" });
+      logo.focus();
+      expect(org.classList.contains("is-revealed")).toBe(true);
+      expect(unobserve).toHaveBeenCalledWith(org);
+      logo.blur();
+      expect(org.classList.contains("is-revealed")).toBe(true);
+      unmount();
+      expect(disconnect).toHaveBeenCalled();
+    } finally {
+      rect.mockRestore();
+      vi.unstubAllGlobals();
+    }
+  });
   it("expands and collapses highlights and project archive", () => {
     render(<App />);
     const show = screen.getByRole("button", { name: "Show all highlights" });
@@ -88,6 +131,8 @@ describe("recruiter journey and accessible interactions", () => {
     expect(screen.getByRole("heading", { level: 1 }).textContent).toBe(
       project.title,
     );
+    expect(screen.getByText(project.contribution)).toBeTruthy();
+    expect(screen.getByText(project.evidence)).toBeTruthy();
     expect(
       screen.getByRole("heading", { name: "Scope & limitations." }),
     ).toBeTruthy();
@@ -107,6 +152,57 @@ describe("recruiter journey and accessible interactions", () => {
     fireEvent(window, new HashChangeEvent("hashchange"));
     expect(detail.open).toBe(true);
     window.history.replaceState(null, "", "/");
+  });
+
+  it("closes organization details from the keyboard and restores the triggering logo", () => {
+    render(<App />);
+    const logo = screen.getByRole("button", {
+      name: "ENSISA — Engineering degree",
+    });
+    fireEvent.click(logo);
+    const panel = document.getElementById(logo.getAttribute("aria-controls")!)!;
+    expect(panel.getAttribute("aria-hidden")).toBe("false");
+    const link = within(panel).getByRole("link", { name: "View education" });
+    link.focus();
+    fireEvent.keyDown(link, { key: "Escape" });
+    expect(document.activeElement).toBe(logo);
+    expect(logo.getAttribute("aria-expanded")).toBe("false");
+    expect(panel.hasAttribute("inert")).toBe(true);
+    expect(screen.queryByRole("link", { name: "View education" })).toBeNull();
+  });
+  it("reserves all organization panels without exposing inactive actions", () => {
+    render(<App />);
+    const panels = document.querySelectorAll(".org-detail");
+    expect(panels.length).toBe(4);
+    fireEvent.click(
+      screen.getByRole("button", { name: "MAGYAR SA — Applied ML project" }),
+    );
+    expect(
+      [...panels].filter((p) => p.getAttribute("aria-hidden") === "false")
+        .length,
+    ).toBe(1);
+    expect([...panels].filter((p) => p.hasAttribute("inert")).length).toBe(3);
+    fireEvent.click(
+      screen.getByRole("button", { name: "Close organization details" }),
+    );
+    expect(screen.queryByRole("link", { name: "View experience" })).toBeNull();
+  });
+  it("suspends the scientific animation in a hidden tab while preserving manual pause", () => {
+    const hidden = vi.spyOn(document, "hidden", "get").mockReturnValue(false);
+    const { container } = render(<ScientificVisual />);
+    const figure = container.querySelector("figure")!;
+    hidden.mockReturnValue(true);
+    fireEvent(document, new Event("visibilitychange"));
+    expect(figure.classList.contains("visual-paused")).toBe(true);
+    hidden.mockReturnValue(false);
+    fireEvent(document, new Event("visibilitychange"));
+    expect(figure.classList.contains("visual-paused")).toBe(false);
+    fireEvent.click(
+      screen.getByRole("button", { name: "Pause visual animation" }),
+    );
+    fireEvent(document, new Event("visibilitychange"));
+    expect(figure.classList.contains("visual-paused")).toBe(true);
+    hidden.mockRestore();
   });
   it("returns a useful not-found page for unknown paths", () => {
     render(<App path="/does-not-exist/" />);

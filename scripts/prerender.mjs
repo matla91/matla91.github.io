@@ -1,6 +1,10 @@
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { render, projects, profile } from "../.ssr/entry-server.js";
+const interFont = (await readdir("dist/assets")).find((file) =>
+  /^inter-latin-wght-normal.*\.woff2$/.test(file),
+);
+if (!interFont) throw new Error("Missing primary font");
 const template = await readFile("dist/index.html", "utf8");
 const origin = (process.env.SITE_URL || "https://matla91.github.io").replace(
   /\/$/,
@@ -49,7 +53,7 @@ for (const page of routes) {
           ],
         })
       : "";
-  const metadata = `<link rel="canonical" href="${escape(url)}"/><meta property="og:type" content="website"/><meta property="og:title" content="${escape(page.title)}"/><meta property="og:description" content="${escape(page.description)}"/><meta property="og:url" content="${escape(url)}"/><meta property="og:image" content="${origin}/assets/og-cover.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Matthis Lahargoue — machine learning, computer vision, scientific computing"/><meta name="twitter:card" content="summary_large_image"/>${page.path === "/404.html" ? '<meta name="robots" content="noindex"/>' : ""}${jsonld ? `<script type="application/ld+json">${jsonld.replaceAll("<", "\\u003c")}</script>` : ""}`;
+  const metadata = `<link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/${interFont}"/><link rel="canonical" href="${escape(url)}"/><meta property="og:type" content="website"/><meta property="og:title" content="${escape(page.title)}"/><meta property="og:description" content="${escape(page.description)}"/><meta property="og:url" content="${escape(url)}"/><meta property="og:image" content="${origin}/assets/og-cover.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Matthis Lahargoue — machine learning, computer vision, scientific computing"/><meta name="twitter:card" content="summary_large_image"/>${page.path === "/404.html" ? '<meta name="robots" content="noindex"/>' : ""}${jsonld ? `<script type="application/ld+json">${jsonld.replaceAll("<", "\\u003c")}</script>` : ""}`;
   let html = template
     .replace("<!--app-->", render(page.path))
     .replace("<!--meta-->", metadata)

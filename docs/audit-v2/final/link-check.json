@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-17",
+  "checks": [
+    {
+      "url": "https://matla91.github.io/",
+      "status": 200,
+      "final": "https://matla91.github.io/",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://matla91.github.io/cv/Matthis-Lahargoue-CV.pdf",
+      "status": 200,
+      "final": "https://matla91.github.io/cv/Matthis-Lahargoue-CV.pdf",
+      "type": "application/pdf",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://matla91.github.io/basel-tram-air/",
+      "status": 200,
+      "final": "https://matla91.github.io/basel-tram-air/",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.isl.eu/",
+      "status": 200,
+      "final": "https://www.isl.eu/",
+      "type": "text/html; charset=UTF-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/matla91",
+      "status": 200,
+      "final": "https://github.com/matla91",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.linkedin.com/in/matthis-lahargoue/",
+      "error": "HTTP Error 405: Method Not Allowed",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/matla91/basel-tram-air",
+      "status": 200,
+      "final": "https://github.com/matla91/basel-tram-air",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/matla91/cnn-stock-prediction-reproducibility-study",
+      "status": 200,
+      "final": "https://github.com/matla91/cnn-stock-prediction-reproducibility-study",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/matla91/matla91.github.io/blob/master/_portfolio/01-magyar-cv.md",
+      "status": 200,
+      "final": "https://github.com/matla91/matla91.github.io/blob/master/_portfolio/01-magyar-cv.md",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/matla91/matla91.github.io/blob/master/_portfolio/03-sentiment-analysis-spark.md",
+      "status": 200,
+      "final": "https://github.com/matla91/matla91.github.io/blob/master/_portfolio/03-sentiment-analysis-spark.md",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/matla91/Diabetes-Prediction-Kaggle-Playground-Series-S5E12",
+      "status": 200,
+      "final": "https://github.com/matla91/Diabetes-Prediction-Kaggle-Playground-Series-S5E12",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/matla91/Radisson",
+      "status": 200,
+      "final": "https://github.com/matla91/Radisson",
+      "type": "text/html; charset=utf-8",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/matla91/Pokemon-Trading-Card-Game",
+      "status": 200,
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.linkedin.com/in/matthis-lahargoue/",
+      "method": "GET",
+      "error": "HTTP Error 999: <none>"
+    }
+  ]
+}
