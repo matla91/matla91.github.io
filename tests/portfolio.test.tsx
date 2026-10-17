@@ -24,6 +24,18 @@ describe("recruiter journey and accessible interactions", () => {
     expect(html).toContain("Research Intern");
     expect(html).not.toContain("none@example.org");
   });
+  it("ships visible brand marks as eager, self-hosted image URLs", () => {
+    const html = renderToString(<App path="/" />);
+    for (const logo of [
+      "isl.webp",
+      "magyar.webp",
+      "ensisa.webp",
+      "uqac.svg",
+    ]) {
+      expect(html).toContain(`src="/brandmarks/${logo}"`);
+    }
+    expect((html.match(/loading="eager"/g) ?? []).length).toBeGreaterThanOrEqual(4);
+  });
   it("reveals a verified organization relationship and a matching section link", async () => {
     render(<App />);
     const button = screen.getByRole("button", {

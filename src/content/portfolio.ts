@@ -1,7 +1,3 @@
-import islLogo from "../assets/logos/isl.webp";
-import magyarLogo from "../assets/logos/magyar.webp";
-import ensisaLogo from "../assets/logos/ensisa.webp";
-import uqacLogo from "../assets/logos/uqac.svg";
 
 export const profile = {
   name: "Matthis Lahargoue",
@@ -213,7 +209,7 @@ export const organizations = [
   {
     id: "isl",
     name: "ISL",
-    logo: islLogo,
+    logo: "/brandmarks/isl.webp",
     kind: "Research internship",
     period: "July 2026 — present",
     detail: "Computational imaging & NLOS research",
@@ -223,7 +219,7 @@ export const organizations = [
   {
     id: "magyar",
     name: "MAGYAR SA",
-    logo: magyarLogo,
+    logo: "/brandmarks/magyar.webp",
     kind: "Applied ML project",
     period: "June 2025",
     detail: "Industrial image classification · two-person team",
@@ -233,7 +229,7 @@ export const organizations = [
   {
     id: "ensisa",
     name: "ENSISA",
-    logo: ensisaLogo,
+    logo: "/brandmarks/ensisa.webp",
     kind: "Engineering degree",
     period: "In progress · diploma expected May 2027",
     detail: "Computer Science & Network Engineering · France",
@@ -243,7 +239,7 @@ export const organizations = [
   {
     id: "uqac",
     name: "UQAC",
-    logo: uqacLogo,
+    logo: "/brandmarks/uqac.svg",
     kind: "Master’s double-degree pathway",
     period: "2025–2026 studies · degree pending",
     detail: "Computer Science · Artificial Intelligence · Canada",
