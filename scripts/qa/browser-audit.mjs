@@ -34,6 +34,7 @@ const report = {
     baseline: process.env.QA_BASELINE_SHA || null,
   },
   checks: [],
+  interactionChecks: [],
   errors: [],
 };
 const verify = (condition, message) => {
@@ -332,6 +333,82 @@ try {
   page.setDefaultTimeout(15_000);
   await page.goto("http://127.0.0.1:4173/");
   await ready(page);
+  // Reach an unobserved, off-screen control before its scroll observer fires.
+  // Focused blocks must be visible synchronously, without an entrance fade.
+  const focusedReveal = await page.evaluate(() => {
+    const logo = document.getElementById("organization-isl");
+    const block = logo.closest("[data-reveal]");
+    const wasWaiting = block.classList.contains("will-reveal") &&
+      !block.classList.contains("is-revealed");
+    logo.focus();
+    const style = getComputedStyle(block);
+    const result = {
+      wasWaiting,
+      revealed: block.classList.contains("is-revealed"),
+      opacity: style.opacity,
+      transition: style.transitionDuration,
+    };
+    logo.blur();
+    result.staysRevealed = block.classList.contains("is-revealed");
+    return result;
+  });
+  report.interactionChecks.push({ name: "focus-before-reveal", ...focusedReveal });
+  verify(
+    focusedReveal.wasWaiting && focusedReveal.revealed &&
+      focusedReveal.opacity === "1" && focusedReveal.transition === "0s" &&
+      focusedReveal.staysRevealed,
+    "Off-screen focus must reveal content immediately and permanently",
+  );
+  await page.screenshot({
+    path: directory + "/captures/after-keyboard-reveal.jpg",
+    type: "jpeg",
+    quality: 85,
+  });
+  // Short screens expose menu clipping that the 900px-high width matrix cannot.
+  for (const version of baseline ? ["before", "after"] : ["after"]) {
+  for (const viewport of [{ width: 390, height: 360 }, { width: 320, height: 320 }]) {
+    await page.setViewportSize(viewport);
+    await page.goto(`http://127.0.0.1:${version === "before" ? 4174 : 4173}/`);
+    await ready(page);
+    await page.getByRole("button", { name: "Open navigation" }).click();
+    const cv = page.getByRole("navigation").getByRole("link", { name: "CV", exact: true });
+    await cv.focus();
+    const menuLayout = await page.locator("#main-nav").evaluate((nav) => {
+      const menu = nav.getBoundingClientRect();
+      const cv = nav.querySelector(".nav-cv").getBoundingClientRect();
+      return {
+        bottom: menu.bottom,
+        height: innerHeight,
+        scrollable: nav.scrollHeight > nav.clientHeight,
+        cvVisible: cv.top >= menu.top && cv.bottom <= menu.bottom + 1,
+      };
+    });
+    report.interactionChecks.push({ name: "short-menu", version, viewport, ...menuLayout });
+    if (version === "after") verify(
+      menuLayout.scrollable && menuLayout.bottom <= viewport.height && menuLayout.cvVisible,
+      `${viewport.width}x${viewport.height}: menu CV must remain visible and reachable`,
+    );
+    await page.screenshot({
+      path: `${directory}/captures/${version}-short-menu-${viewport.width}.jpg`,
+      type: "jpeg",
+      quality: 85,
+    });
+    if (version === "after") {
+    await page.keyboard.press("Tab");
+    verify(
+      await page.getByRole("button", { name: "Open navigation" }).count() === 1,
+      `${viewport.width}: menu must dismiss when keyboard focus leaves`,
+    );
+    verify(
+      await page.getByRole("link", { name: "Explore my work" }).evaluate((e) => e === document.activeElement),
+      `${viewport.width}: menu dismissal must preserve the next keyboard target`,
+    );
+    }
+  }
+  }
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto("http://127.0.0.1:4173/");
+  await ready(page);
   await page.getByRole("button", { name: "01 Signals" }).click();
   await page.waitForFunction(
     () =>
@@ -364,7 +441,7 @@ try {
       .evaluate((e) => getComputedStyle(e).animationName)) === "none",
     "Reduced motion is not respected",
   );
-  // Equivalent 200% reflow viewport; native browser zoom still requires a manual check.
+  // Equivalent 200% reflow viewport; native browser zoom is tested separately below.
   await page.setViewportSize({ width: 720, height: 450 });
   await page.goto("http://127.0.0.1:4173/");
   await ready(page);

@@ -1,5 +1,7 @@
 # Portfolio V2 — audit et finition
 
+La branche de finition du 17 octobre conserve cet audit et ses preuves datées. Voir le [bilan de finition et les nouveaux contrôles](FINAL-2026-10-17.md) pour la revue actuelle.
+
 Audit du 16 octobre 2026. Production vérifiée sur `master`, commit `366061dec18649dffb4fbe2b79ac2e923da98888` (PR MAGYAR intégrée). Le [dernier workflow de production](https://github.com/matla91/matla91.github.io/actions/runs/38929989304) est réussi sur ce SHA. Travail isolé sur `feat/portfolio-v2-polish`. Le workflow Pages ne déploie pas une PR.
 
 ## Constats prioritaires et corrections

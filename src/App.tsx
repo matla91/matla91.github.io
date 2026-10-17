@@ -46,7 +46,22 @@ function useReveals(path: string) {
         observer.observe(el);
       }
     });
-    return () => observer.disconnect();
+    // Keyboard focus may reach a block before its intersection callback runs.
+    // Reveal every containing block immediately and keep it visible afterward.
+    const revealFocused = (event: FocusEvent) => {
+      if (!(event.target instanceof Element)) return;
+      for (const element of elements) {
+        if (element.contains(event.target)) {
+          element.classList.add("is-revealed");
+          observer.unobserve(element);
+        }
+      }
+    };
+    document.addEventListener("focusin", revealFocused);
+    return () => {
+      observer.disconnect();
+      document.removeEventListener("focusin", revealFocused);
+    };
   }, [path]);
 }
 const Label = ({

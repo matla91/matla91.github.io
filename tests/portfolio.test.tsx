@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { render, screen, fireEvent, within } from "@testing-library/react";
+import { act, render, screen, fireEvent, within } from "@testing-library/react";
 import { renderToString } from "react-dom/server";
 import App from "../src/App";
 import ScientificVisual from "../src/components/ScientificVisual";
@@ -45,6 +45,49 @@ describe("recruiter journey and accessible interactions", () => {
     fireEvent.keyDown(document, { key: "Escape" });
     expect(toggle.getAttribute("aria-expanded")).toBe("false");
     expect(document.activeElement).toBe(toggle);
+  });
+  it("dismisses navigation when keyboard focus leaves it without stealing focus", () => {
+    render(<App />);
+    const toggle = screen.getByRole("button", { name: "Open navigation" });
+    fireEvent.click(toggle);
+    const nav = screen.getByRole("navigation");
+    act(() => within(nav).getByRole("link", { name: "About" }).focus());
+    // Tabbing between menu items keeps the menu open.
+    act(() => within(nav).getByRole("link", { name: "CV" }).focus());
+    expect(toggle.getAttribute("aria-expanded")).toBe("true");
+    const work = screen.getByRole("link", { name: "Explore my work" });
+    act(() => work.focus());
+    expect(toggle.getAttribute("aria-expanded")).toBe("false");
+    expect(document.activeElement).toBe(work);
+  });
+  it("reveals an off-screen block immediately when reached with the keyboard", () => {
+    const observe = vi.fn();
+    const unobserve = vi.fn();
+    const disconnect = vi.fn();
+    vi.stubGlobal("IntersectionObserver", class {
+      observe = observe;
+      unobserve = unobserve;
+      disconnect = disconnect;
+    });
+    const rect = vi.spyOn(Element.prototype, "getBoundingClientRect")
+      .mockReturnValue({ top: 1200 } as DOMRect);
+    try {
+      const { unmount } = render(<App />);
+      const org = document.querySelector("#organizations [data-reveal]")!;
+      expect(org.classList.contains("will-reveal")).toBe(true);
+      expect(org.classList.contains("is-revealed")).toBe(false);
+      const logo = screen.getByRole("button", { name: "ISL — Research internship" });
+      logo.focus();
+      expect(org.classList.contains("is-revealed")).toBe(true);
+      expect(unobserve).toHaveBeenCalledWith(org);
+      logo.blur();
+      expect(org.classList.contains("is-revealed")).toBe(true);
+      unmount();
+      expect(disconnect).toHaveBeenCalled();
+    } finally {
+      rect.mockRestore();
+      vi.unstubAllGlobals();
+    }
   });
   it("expands and collapses highlights and project archive", () => {
     render(<App />);

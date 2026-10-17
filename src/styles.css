@@ -242,6 +242,11 @@ h3 {
   opacity: 1;
   transform: translateY(0);
 }
+.will-reveal:focus-within {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
 [hidden] {
   display: none !important;
 }
@@ -1992,6 +1997,10 @@ details[open] > .experience-body {
     display: none;
     position: absolute;
     top: 67px;
+    max-height: calc(100vh - 68px);
+    max-height: calc(100dvh - 68px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
     left: 0;
     right: 0;
     background: #010409;
