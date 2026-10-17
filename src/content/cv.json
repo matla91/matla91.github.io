@@ -4,7 +4,7 @@
   "email": "matthis.lahargoue@gmail.com",
   "github": "https://github.com/matla91",
   "linkedin": "https://www.linkedin.com/in/matthis-lahargoue/",
-  "summary": "Engineering student on an ENSISA/UQAC double-degree pathway, currently a computational imaging research intern at ISL. Focused on machine learning, inverse problems, reproducible experimentation and scientific computing. Interested in ML and vision opportunities, especially in Switzerland.",
+  "summary": "Engineering student on an UQAC/ENSISA double-degree pathway, currently a computational imaging research intern at ISL. Focused on machine learning, inverse problems, reproducible experimentation and scientific computing. Interested in ML and vision opportunities, especially in Switzerland.",
   "experience": [
     {
       "title": "Research Intern - Computational Imaging / NLOS",
@@ -21,14 +21,14 @@
   ],
   "education": [
     {
-      "title": "Engineering Degree - Computer Science & Network Engineering",
-      "org": "ENSISA, Université de Haute-Alsace, France",
-      "date": "In progress; diploma expected May 2027"
-    },
-    {
       "title": "Master's in Computer Science - Artificial Intelligence",
       "org": "Université du Québec à Chicoutimi (UQAC), Canada",
       "date": "2025-2026 studies; degree pending"
+    },
+    {
+      "title": "Engineering Degree - Computer Science & Network Engineering",
+      "org": "ENSISA, Université de Haute-Alsace, France",
+      "date": "In progress; diploma expected May 2027"
     }
   ],
   "projects": [
