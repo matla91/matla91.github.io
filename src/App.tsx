@@ -277,6 +277,34 @@ function Education() {
           </p>
         </div>
         <div className="education-timeline">
+          <article id="education-uqac" className="education-item" data-reveal>
+            <div className="edu-date micro">
+              2025 — 2026<span>Studies · degree pending</span>
+            </div>
+            <div className="edu-main">
+              <p className="micro">UNIVERSITÉ DU QUÉBEC À CHICOUTIMI</p>
+              <h3>
+                Master’s in Computer Science
+                <br />
+                <span className="muted">Artificial Intelligence</span>
+              </h3>
+              <p>
+                Graduate study in machine learning, large-scale data processing,
+                business intelligence and research-oriented computing.
+              </p>
+              <div className="tag-row">
+                <span>Canada</span>
+                <span>Double-degree pathway</span>
+              </div>
+            </div>
+            <img
+              src={organizations.find((o) => o.id === "uqac")!.logo}
+              width="180"
+              height="80"
+              loading="lazy"
+              alt="UQAC"
+            />
+          </article>
           <article id="education-ensisa" className="education-item" data-reveal>
             <div className="edu-date micro">
               IN PROGRESS<span>Diploma expected May 2027</span>
@@ -304,34 +332,6 @@ function Education() {
               height="80"
               loading="lazy"
               alt="ENSISA"
-            />
-          </article>
-          <article id="education-uqac" className="education-item" data-reveal>
-            <div className="edu-date micro">
-              2025 — 2026<span>Studies · degree pending</span>
-            </div>
-            <div className="edu-main">
-              <p className="micro">UNIVERSITÉ DU QUÉBEC À CHICOUTIMI</p>
-              <h3>
-                Master’s in Computer Science
-                <br />
-                <span className="muted">Artificial Intelligence</span>
-              </h3>
-              <p>
-                Graduate study in machine learning, large-scale data processing,
-                business intelligence and research-oriented computing.
-              </p>
-              <div className="tag-row">
-                <span>Canada</span>
-                <span>Double-degree pathway</span>
-              </div>
-            </div>
-            <img
-              src={organizations.find((o) => o.id === "uqac")!.logo}
-              width="180"
-              height="80"
-              loading="lazy"
-              alt="UQAC"
             />
           </article>
         </div>
@@ -741,7 +741,7 @@ function Home() {
                 />
                 <div>
                   <span>Research intern @ ISL</span>
-                  <p className="micro">ENSISA × UQAC · DOUBLE DEGREE</p>
+                  <p className="micro">UQAC × ENSISA · DOUBLE DEGREE</p>
                 </div>
               </div>
               <div className="hero-socials">
@@ -771,7 +771,7 @@ function Home() {
                 </h2>
                 <p>
                   I’m a French engineering student pursuing a double degree at
-                  ENSISA and UQAC. At ISL, I work where machine learning meets
+                  UQAC and ENSISA. At ISL, I work where machine learning meets
                   physical measurement.
                 </p>
                 <p>
