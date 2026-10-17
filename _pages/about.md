@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an applied Machine Learning engineer currently completing a dual degree — an Engineering Degree in Computer Science (ENSISA, France) and a Master's in Artificial Intelligence (UQAC, Canada). My work focuses on building ML systems that perform reliably under real-world constraints: limited data, noisy labels, class imbalance, and distribution shift. I care more about whether a model generalizes than whether it tops a leaderboard.
+I am an applied Machine Learning engineer currently completing a dual degree — a Master's in Artificial Intelligence (UQAC, Canada) and an Engineering Degree in Computer Science (ENSISA, France). My work focuses on building ML systems that perform reliably under real-world constraints: limited data, noisy labels, class imbalance, and distribution shift. I care more about whether a model generalizes than whether it tops a leaderboard.
 
 ## How I approach ML problems
 
