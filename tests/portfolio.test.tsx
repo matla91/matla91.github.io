@@ -36,6 +36,19 @@ describe("recruiter journey and accessible interactions", () => {
     }
     expect((html.match(/loading="eager"/g) ?? []).length).toBeGreaterThanOrEqual(4);
   });
+  it("lists UQAC before ENSISA in academic logos and education", () => {
+    const html = renderToString(<App path="/" />);
+    const logoUqac = html.indexOf('id="organization-uqac"');
+    const logoEnsisa = html.indexOf('id="organization-ensisa"');
+    const educationUqac = html.indexOf('id="education-uqac"');
+    const educationEnsisa = html.indexOf('id="education-ensisa"');
+    expect(logoUqac).toBeGreaterThan(-1);
+    expect(logoEnsisa).toBeGreaterThan(-1);
+    expect(educationUqac).toBeGreaterThan(-1);
+    expect(educationEnsisa).toBeGreaterThan(-1);
+    expect(logoUqac).toBeLessThan(logoEnsisa);
+    expect(educationUqac).toBeLessThan(educationEnsisa);
+  });
   it("reveals a verified organization relationship and a matching section link", async () => {
     render(<App />);
     const button = screen.getByRole("button", {
