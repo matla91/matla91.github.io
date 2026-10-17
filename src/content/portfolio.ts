@@ -227,16 +227,6 @@ export const organizations = [
     group: "professional",
   },
   {
-    id: "ensisa",
-    name: "ENSISA",
-    logo: "/brandmarks/ensisa.webp",
-    kind: "Engineering degree",
-    period: "In progress · diploma expected May 2027",
-    detail: "Computer Science & Network Engineering · France",
-    target: "#education-ensisa",
-    group: "academic",
-  },
-  {
     id: "uqac",
     name: "UQAC",
     logo: "/brandmarks/uqac.svg",
@@ -244,6 +234,16 @@ export const organizations = [
     period: "2025–2026 studies · degree pending",
     detail: "Computer Science · Artificial Intelligence · Canada",
     target: "#education-uqac",
+    group: "academic",
+  },
+  {
+    id: "ensisa",
+    name: "ENSISA",
+    logo: "/brandmarks/ensisa.webp",
+    kind: "Engineering degree",
+    period: "In progress · diploma expected May 2027",
+    detail: "Computer Science & Network Engineering · France",
+    target: "#education-ensisa",
     group: "academic",
   },
 ];
